@@ -1,0 +1,50 @@
+common:
+  hp: 0        #  Starting offset for finding stats  
+  atk: 87      # 29 * 3
+  def: 116     # 29 * 4
+  agi: 145     # 29 * 5
+  int: 174     # 29 * 6
+  spr: 203     # 29 * 7
+  luck: 232    # 29 * 8
+  defMag: 261  # 29 * 9
+  offMag: 290  # 29 * 10
+  exp: 822     # Can't use the same pattern for exp
+
+# Currently all of these offsets are the same 
+# for these different types of enemies
+# But for generality, we will keep them separate
+boss:
+  hp: 0        #  Starting offset for finding stats  
+  atk: 87      # 29 * 3
+  def: 116     # 29 * 4
+  agi: 145     # 29 * 5
+  int: 174     # 29 * 6
+  spr: 203     # 29 * 7
+  luck: 232    # 29 * 8
+  defMag: 261  # 29 * 9
+  offMag: 290  # 29 * 10
+  exp: 822     # Can't use the same pattern for exp
+
+shinju:
+  hp: 0        #  Starting offset for finding stats  
+  atk: 87      # 29 * 3
+  def: 116     # 29 * 4
+  agi: 145     # 29 * 5
+  int: 174     # 29 * 6
+  spr: 203     # 29 * 7
+  luck: 232    # 29 * 8
+  defMag: 261  # 29 * 9
+  offMag: 290  # 29 * 10
+  exp: 822     # Can't use the same pattern for exp
+
+parts:
+  hp: 0        #  Starting offset for finding stats  
+  atk: 87      # 29 * 3
+  def: 116     # 29 * 4
+  agi: 145     # 29 * 5
+  int: 174     # 29 * 6
+  spr: 203     # 29 * 7
+  luck: 232    # 29 * 8
+  defMag: 261  # 29 * 9
+  offMag: 290  # 29 * 10
+  exp: 822     # Can't use the same pattern for exp
