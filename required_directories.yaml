@@ -1,0 +1,21 @@
+base: Custom_TofMania - 0.3.2_P\Trials of Mana\Content\Game00
+
+common: 
+  zako: BP\Enemy\Zako\Data
+  status: Data\Csv\CharaData
+
+boss:
+  base: Data\Csv\CharaData
+
+shinju: 
+  base: Data\Csv\CharaData\ShinjuStatusTableList
+  eb11: eb11_Parts
+  eb12: eb12_Parts
+  eb13: eb13_Parts
+  eb14: eb14_Parts
+  eb15: eb15_Parts
+  eb16: eb16_Parts
+  eb17: eb17_Parts
+
+parts:
+  base: Data\Csv\CharaData\Parts
