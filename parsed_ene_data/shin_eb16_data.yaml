@@ -1,112 +1,112 @@
 Body:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\01_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\01_eb16_01_PartsTable.uexp
   offsetLoc: 1690
+  type_id: shin_eb16
 Body_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\02_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\02_eb16_01_PartsTable.uexp
   offsetLoc: 1690
+  type_id: shin_eb16
 Body_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\03_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\03_eb16_01_PartsTable.uexp
   offsetLoc: 1690
+  type_id: shin_eb16
 Body_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\04_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\04_eb16_01_PartsTable.uexp
   offsetLoc: 1690
+  type_id: shin_eb16
 Body_4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\05_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\05_eb16_01_PartsTable.uexp
   offsetLoc: 1690
+  type_id: shin_eb16
 Body_5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\06_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\06_eb16_01_PartsTable.uexp
   offsetLoc: 1690
+  type_id: shin_eb16
 Body_6:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\07_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\07_eb16_01_PartsTable.uexp
   offsetLoc: 1690
+  type_id: shin_eb16
 HandLB:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\01_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\01_eb16_01_PartsTable.uexp
   offsetLoc: 3269
+  type_id: shin_eb16
 HandLB_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\02_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\02_eb16_01_PartsTable.uexp
   offsetLoc: 3269
+  type_id: shin_eb16
 HandLB_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\03_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\03_eb16_01_PartsTable.uexp
   offsetLoc: 3269
+  type_id: shin_eb16
 HandLB_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\04_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\04_eb16_01_PartsTable.uexp
   offsetLoc: 3269
+  type_id: shin_eb16
 HandLB_4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\05_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\05_eb16_01_PartsTable.uexp
   offsetLoc: 3269
+  type_id: shin_eb16
 HandLB_5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\06_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\06_eb16_01_PartsTable.uexp
   offsetLoc: 3269
+  type_id: shin_eb16
 HandLB_6:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\07_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\07_eb16_01_PartsTable.uexp
   offsetLoc: 3269
+  type_id: shin_eb16
 HandRB:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\01_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\01_eb16_01_PartsTable.uexp
   offsetLoc: 4848
+  type_id: shin_eb16
 HandRB_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\02_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\02_eb16_01_PartsTable.uexp
   offsetLoc: 4848
+  type_id: shin_eb16
 HandRB_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\03_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\03_eb16_01_PartsTable.uexp
   offsetLoc: 4848
+  type_id: shin_eb16
 HandRB_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\04_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\04_eb16_01_PartsTable.uexp
   offsetLoc: 4848
+  type_id: shin_eb16
 HandRB_4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\05_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\05_eb16_01_PartsTable.uexp
   offsetLoc: 4848
+  type_id: shin_eb16
 HandRB_5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\06_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\06_eb16_01_PartsTable.uexp
   offsetLoc: 4848
+  type_id: shin_eb16
 HandRB_6:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\07_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\07_eb16_01_PartsTable.uexp
   offsetLoc: 4848
+  type_id: shin_eb16
 Head:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\01_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\01_eb16_01_PartsTable.uexp
   offsetLoc: 111
+  type_id: shin_eb16
 Head_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\02_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\02_eb16_01_PartsTable.uexp
   offsetLoc: 111
+  type_id: shin_eb16
 Head_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\03_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\03_eb16_01_PartsTable.uexp
   offsetLoc: 111
+  type_id: shin_eb16
 Head_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\04_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\04_eb16_01_PartsTable.uexp
   offsetLoc: 111
+  type_id: shin_eb16
 Head_4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\05_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\05_eb16_01_PartsTable.uexp
   offsetLoc: 111
+  type_id: shin_eb16
 Head_5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\06_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\06_eb16_01_PartsTable.uexp
   offsetLoc: 111
+  type_id: shin_eb16
 Head_6:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\07_eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\ShinjuStatusTableList\eb16_Parts\07_eb16_01_PartsTable.uexp
   offsetLoc: 111
+  type_id: shin_eb16

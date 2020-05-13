@@ -1,252 +1,252 @@
 Anise:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 32648
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 71596
+  type_id: boss
 Anise Avatar:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 1
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 84588
+  type_id: boss
 AniseDragon:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 78355
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 73220
+  type_id: boss
 ArchDemon:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 29500
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 47236
+  type_id: boss
 ArchDemon ArmL:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 3573
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 94332
+  type_id: boss
 ArchDemon ArmR:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 3573
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 95956
+  type_id: boss
 Beast Ruger:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 21840
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 16380
+  type_id: boss
 BeastKing:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 34090
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 91084
+  type_id: boss
 Ben:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 6240
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 9884
+  type_id: boss
 Ben_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 9060
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 56980
+  type_id: boss
 Bill:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 6240
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 8260
+  type_id: boss
 Bill and Ben:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 12480
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 11508
+  type_id: boss
 Bill and Ben_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 16474
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 58604
+  type_id: boss
 Bill_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 9060
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 55356
+  type_id: boss
 BlackKnight:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 52616
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 32620
+  type_id: boss
 BlackRabi:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 86496
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 48860
+  type_id: boss
 Bruiser:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 3000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 52108
+  type_id: boss
 CrimsonWizard:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 55896
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 34244
+  type_id: boss
 CrimsonWizardEvent:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 55896
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 35868
+  type_id: boss
 Crystal:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 80
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 92708
+  type_id: boss
 Dangard:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 10000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 24500
+  type_id: boss
 DarkRich:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 56773
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 45612
+  type_id: boss
 Doran:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 10000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 27748
+  type_id: boss
 Earl of evil eye:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 48000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 40740
+  type_id: boss
 Fallen saint:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 41976
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 39116
+  type_id: boss
 Feegu Mund:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 10000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 21252
+  type_id: boss
 FullmetalHugger:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 1600
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 140
+  type_id: boss
 FullmetalHugger_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 55120
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 61852
+  type_id: boss
 FullmetalHugger_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 53424
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 97580
+  type_id: boss
 Genoa:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 11973
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 6636
+  type_id: boss
 Genoa_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 51016
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 68348
+  type_id: boss
 Genoa_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 51813
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 100828
+  type_id: boss
 Gorva:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 15746
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 13132
+  type_id: boss
 Gorva_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 44096
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 60228
+  type_id: boss
 Guilder Vine:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 23712
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 18004
+  type_id: boss
 Guilder Vine_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 57528
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 69972
+  type_id: boss
 HugeDragon:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 68127
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 43988
+  type_id: boss
 Jewel Eater:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 51016
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 65100
+  type_id: boss
 Jewel EaterR:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 8524
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 3388
+  type_id: boss
 JewelryBeast:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 55968
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 42364
+  type_id: boss
 Karl:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 3000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 53732
+  type_id: boss
 Land amber:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 10000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 19628
+  type_id: boss
 Light Geizer:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 10000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 29372
+  type_id: boss
 MachineGolemR:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 2232
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 1764
+  type_id: boss
 MachineGolemS:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 6735
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 14756
+  type_id: boss
 Man - eating death:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 49947
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 37492
+  type_id: boss
 'Man - eating death : Avatar':
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 3200
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 63476
+  type_id: boss
 ManaStone Black:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 70
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 86212
+  type_id: boss
 ManaStone Earth:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 2800
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 78092
+  type_id: boss
 ManaStone Fire:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 2800
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 81340
+  type_id: boss
 ManaStone Water:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 2800
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 79716
+  type_id: boss
 ManaStone Wind:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 2800
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 82964
+  type_id: boss
 MiniBlackRabi:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 30
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 50484
+  type_id: boss
 Mispolm:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 10000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 26124
+  type_id: boss
 Mispolm Ivy:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 1881
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 87836
+  type_id: boss
 Roki:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 28408
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 89460
+  type_id: boss
 Sablehor:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 50267
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 30996
+  type_id: boss
 Sablehor BlueMan:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 3010
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 74844
+  type_id: boss
 Sablehor PurpleMan:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 3010
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 76468
+  type_id: boss
 Zan Bie:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 10000
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 22876
+  type_id: boss
 Zhenker:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 7038
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 5012
+  type_id: boss
 Zhenker_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 42739
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 66724
+  type_id: boss
 Zhenker_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
-  hp: 43418
+  filePath: Game Files\Boss\Orig\uexp files\Charadata\BossStatusTable.uexp
   offsetLoc: 99204
+  type_id: boss

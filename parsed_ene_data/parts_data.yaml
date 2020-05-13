@@ -1,412 +1,412 @@
 Altar_A:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb13_01_PartsStatusTable.uexp
-  hp: 2000
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb13_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Altar_B:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb13_01_PartsStatusTable.uexp
-  hp: 2000
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb13_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 Altar_C:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb13_01_PartsStatusTable.uexp
-  hp: 2000
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb13_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmL:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmLB:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmLB_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_02_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_02_PartsTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmLB_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_03_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_03_PartsTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmL_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmL_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmL_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmL_4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
-  hp: 2500
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 ArmL_5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmL_6:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmL_7:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 ArmL_Core01:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
-  hp: 2500
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmL_Core02:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
-  hp: 2500
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 ArmR:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmRB:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmRB_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_02_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_02_PartsTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmRB_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_03_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_03_PartsTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmR_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmR_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 ArmR_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 ArmR_4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
-  hp: 2500
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmR_5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmR_6:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmR_7:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ArmR_Core01:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
-  hp: 2500
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
   offsetLoc: 8006
+  type_id: parts
 ArmR_Core02:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
-  hp: 2500
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
   offsetLoc: 9585
+  type_id: parts
 ArmTipL:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmTipL_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ArmTipR:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
   offsetLoc: 8006
+  type_id: parts
 ArmTipR_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
   offsetLoc: 8006
+  type_id: parts
 Body:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_02_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_02_PartsTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_10:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_11:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb13_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb13_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Body_12:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb15_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb15_01_PartsTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_13:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb16_01_PartsTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_14:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb17_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb17_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_15:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Body_16:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_17:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Body_18:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb33_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb33_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_03_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_03_PartsTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Body_6:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Body_7:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_8:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Body_9:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
-  hp: 2500
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb11_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Eye:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb17_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb17_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Flower:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
   offsetLoc: 11164
+  type_id: parts
 Flower_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
   offsetLoc: 11164
+  type_id: parts
 Gigaburn_Gimmick01:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
-  hp: 60
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 9585
+  type_id: parts
 Gigaburn_Gimmick02:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
-  hp: 60
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 11164
+  type_id: parts
 Gigaburn_Gimmick03:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
-  hp: 60
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 12743
+  type_id: parts
 HandLB:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb16_01_PartsTable.uexp
   offsetLoc: 3269
+  type_id: parts
 HandRB:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb16_01_PartsTable.uexp
   offsetLoc: 4848
+  type_id: parts
 Head:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head01_L:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb14_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb14_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head02_R:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb14_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb14_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 Head_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_02_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_02_PartsTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb01_03_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb01_03_PartsTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head_4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head_5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head_6:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb15_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb15_01_PartsTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head_7:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb15_02_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb15_02_PartsTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head_8:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb16_01_PartsTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb16_01_PartsTable.uexp
   offsetLoc: 111
+  type_id: parts
 Head_9:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb33_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb33_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 HellSouthernCross_Gimick01:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
-  hp: 80
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 HellSouthernCross_Gimick02:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
-  hp: 80
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 8006
+  type_id: parts
 Neck:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_01_PartsStatusTable.uexp
   offsetLoc: 9585
+  type_id: parts
 Neck_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb10_11_PartsStatusTable.uexp
   offsetLoc: 9585
+  type_id: parts
 None:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 None_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 None_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
   offsetLoc: 111
+  type_id: parts
 None_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
   offsetLoc: 8006
+  type_id: parts
 None_4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
   offsetLoc: 9585
+  type_id: parts
 None_5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
   offsetLoc: 11164
+  type_id: parts
 RouletteDeath_Actor01:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
-  hp: 1
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 RouletteDeath_Actor02:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
-  hp: 1
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 RouletteDeath_Actor03:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
-  hp: 1
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 RouletteDeath_Actor04:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
-  hp: 1
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb21_01_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 Shadow:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 ShadowDummy1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ShadowDummy1_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
   offsetLoc: 3269
+  type_id: parts
 ShadowDummy2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ShadowDummy2_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 ShadowDummy3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 ShadowDummy3_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 ShadowDummy4:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
   offsetLoc: 8006
+  type_id: parts
 ShadowDummy4_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
   offsetLoc: 8006
+  type_id: parts
 ShadowDummy5:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_01_PartsStatusTable.uexp
   offsetLoc: 9585
+  type_id: parts
 ShadowDummy5_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
   offsetLoc: 9585
+  type_id: parts
 Shadow_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb07_11_PartsStatusTable.uexp
   offsetLoc: 1690
+  type_id: parts
 SpiralMoon_Gimmick01:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
-  hp: 1
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
 Tail:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_01_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 Tail_1:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb03_11_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 Tail_2:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb12_01_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
 Tail_3:
-  filePath: Trials-of-Mania---Difficulty-Mod\Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
-  hp: 0
+  filePath: Game Files\Boss\Orig\uexp files\Parts\eb25_01_PartsStatusTable.uexp
   offsetLoc: 6427
+  type_id: parts
