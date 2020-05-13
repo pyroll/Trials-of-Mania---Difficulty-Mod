@@ -1,7 +1,6 @@
 import os
 import yaml
 
-
 # TODO do we want to be able to update each class instance so we can check what its new value is?
 class Enemy:    
     def __init__(self, enemyType, file_path, hpOffset):
@@ -20,8 +19,7 @@ class Enemy:
 
 
 def editHexAll(enemyType):
-
-    # Start for file iterating
+    # Starting directory for file iterating
     # TODO way to prevent errors when rootdir of one enemyType contains the rootdir of a subsequent one
     rootdir = rootDirDict[enemyType]
 
@@ -111,8 +109,7 @@ def makeDirectories():
                 os.makedirs(path)
     
     head = head + "\\" + dirs['shinju']['base']
-    # remove 'base' key to remove from our for loop
-    dirs['shinju'].pop('base')
+    dirs['shinju'].pop('base') # remove 'base' key as its purpose is different to other members in dir['shinju']
     for key, val in dirs['shinju'].items():
         path = head + "\\" + val
         if not os.path.exists(path):
@@ -140,10 +137,6 @@ def createEnemyInstances():
 
                 Enemy(enemyType, filePath, offsetLoc)
 
-
-with open("offsets-config.yaml", 'r') as file:
-    loadedOffsets = yaml.load(file, Loader=yaml.FullLoader)
-
 # List of all instance lists which will include common enemies, bosses, boss limbs, etc.
 enemyCategories = {"common": [], 
                    "boss"  : [],
@@ -151,7 +144,6 @@ enemyCategories = {"common": [],
                    "parts" : []}
 
 rootDirDict = {"common": r'Game Files\uexp files\Orig', 
-               # TODO TESTING boss path so it doesn't cause errors with "shinju" and "parts"
                "boss"  : r'Game Files\Boss\Orig\uexp files',
                "shinju": r'Game Files\Boss\Orig\uexp files\ShinjuStatusTableList',
                "parts" : r'Game Files\Boss\Orig\uexp files\Parts'}
@@ -163,30 +155,13 @@ finDirPath_Boss = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\D
 finDirPath_shinju = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\Data\\Csv\\CharaData\\ShinjuStatusTableList\\'
 finDirPath_parts = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\Data\\Csv\\CharaData\\Parts\\'
 
-
-# ****** EnemyStatusSt02 - Rabite Forest*****
-
-# st2Path = r'Game Files\uexp files\Orig\EnemyStatusSt02.uexp'
-
-# RABI_Lv1 = Enemy("common", st2Path, 1690)
-# MAIKONIDO_Lv1 = Enemy("common", st2Path, 3269)
-# BOUNDWOLF_Lv1 = Enemy("common", st2Path, 4848)
-# ASSASSINBUG_Lv1 = Enemy("common", st2Path, 6427)
-# RABI_Lv3 = Enemy("common", st2Path, 8006)
-# MAIKONIDO_Lv3 = Enemy("common", st2Path, 9585)
-# ASSASSINBUG_Lv3 = Enemy("common", st2Path, 11164)
-# RABI_Lv14 = Enemy("common", st2Path, 12743)
-# RABIRION_Lv15 = Enemy("common", st2Path, 14322)
-# MAIKONIDO_Lv14 = Enemy("common", st2Path, 15901)
-# ASSASSINBUG_Lv14 = Enemy("common", st2Path, 17480)
-# SUMMON_RABI_Lv15 = Enemy("common", st2Path, 19059)
-
-
+with open("offsets-config.yaml", 'r') as file:
+    loadedOffsets = yaml.load(file, Loader=yaml.FullLoader)
+    
 with open('multipliers-config.yaml', 'r') as file:
     multipliersDict = yaml.load(file, Loader=yaml.FullLoader)
 
 makeDirectories()
-
 createEnemyInstances()
 
 for enemyType in ['common', 'boss', 'shinju', 'parts']:
