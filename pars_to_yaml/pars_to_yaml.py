@@ -64,7 +64,7 @@ def json2yaml(enemyType):
     # r'Trials-of-Mania---Difficulty-Mod\test_data.yaml'
     
     with open(outputPath, 'w') as file:
-        documents = yaml.dump(dictForYaml, file)
+        yaml.dump(dictForYaml, file)
 
 
 # dict that holds all the directories with json files to read

@@ -1,5 +1,7 @@
 import os
 import yaml
+from collections import defaultdict
+
 
 # TODO do we want to be able to update each class instance so we can check what its new value is?
 class Enemy:    
@@ -10,84 +12,54 @@ class Enemy:
         # self.outPath = determineOutPath(enemyType, file_path)
 
         # Append to appropriate category        
-        enemyCategories[enemyType].append(self)
-
+        # enemyCategories[enemyType].append(self)
+        enemiesByFile[file_path].append(self) 
         # Offset locations for each stat we want to edit      
         # hpOffset is used as the base offset to calculate the other offsets   
         for attr, offset in loadedOffsets[enemyType].items():
             self.attrOffsetDict[attr] = hpOffset + offset
 
 
-def editHexAll(enemyType):
-    # Starting directory for file iterating
-    # TODO way to prevent errors when rootdir of one enemyType contains the rootdir of a subsequent one
-    rootdir = rootDirDict[enemyType]
+def editHexAll():        
+    with open("files-to-edit.yaml", 'r') as file:
+        files = yaml.load(file, Loader=yaml.FullLoader)    
+    
+    for file in files:        
+        fullPath = files[file]['fullPath']
+        outPath = files[file]['outPath']                
 
-    # Get full path of file to use
-    for subdir, dirs, files in os.walk(rootdir):
-        for file in files:
-            # This will concatenate the 'head' and 'tail' to form the full file path
-            fullPath = os.path.join(subdir, file)
-            
-            # Avoid working on parts and shinju files while enemyType is 'boss' \
-            if enemyType == 'boss' and file != 'BossStatusTable.uexp':
-                continue
-
-            with open(fullPath, 'rb') as f:
-                byteData = f.read()
+        with open(fullPath, 'rb') as f:
+            byteData = f.read()
+    
+        # Get data into an array that is mutable
+        mutableBytes = bytearray(byteData)            
         
-            # Get data into an array that is mutable
-            mutableBytes = bytearray(byteData)
-
-            for enemy in enemyCategories[enemyType]:                
-                # Check each Enemy's fileLocation attr to see if it matches the current fullPath
-                if enemy.fileLocation == fullPath:
-                    for attr, offset in enemy.attrOffsetDict.items():
-                        
-                        # Original slice of four bytes in data that we will edit
-                        fourBytesToEdit = byteData[offset:(offset + 4)]                    
-
-                        # Convert those four bytes to an integer
-                        numFromBytes = int.from_bytes(fourBytesToEdit, byteorder='little', signed=True)                    
-
-                        newStatValue = round(numFromBytes * multipliersDict[enemyType][attr])
-                        
-                        if newStatValue > 2147483647:
-                            newStatValue = 2147483647                 
-
-                        # new Stat value to 4 byte string
-                        bytesToInsert = newStatValue.to_bytes(4, byteorder='little', signed=True)                    
-
-                        # Insert new byte slice into mutable byte array
-                        mutableBytes[offset:(offset + 4)] = bytesToInsert                                            
-                       
-            with open(determineOutPath(enemyType, file), 'wb') as f:
-                f.write(mutableBytes)                    
+        for enemy in enemiesByFile[fullPath]:
+            for attr, offset in enemy.attrOffsetDict.items():
+                editBytes(mutableBytes, enemy, attr, offset)                                        
+                    
+        with open(outPath, 'wb') as f:
+            f.write(mutableBytes)              
 
 
-def determineOutPath(enemyType, file):
-    if enemyType == 'common' and (file == 'EnemyStatusTable.uexp' or file == 'EnemyStatusMaxTable.uexp'):
-        return finDirPath_Data + file
-    elif enemyType == 'common':
-        return finDirPath_BP + file
-    
-    if file == 'BossStatusTable.uexp':        
-        return finDirPath_Boss + file 
+def editBytes(mutableBytes, enemy, attr, offset):
+    enemyType = enemy.enemyType
+                
+    # Original slice of four bytes in data that we will edit
+    fourBytesToEdit = mutableBytes[offset:(offset + 4)]                    
 
-    if enemyType == 'parts':
-        return finDirPath_parts + file
+    # Convert those four bytes to an integer
+    numFromBytes = int.from_bytes(fourBytesToEdit, byteorder='little', signed=True)                    
 
-    if 'CustomStatusTable.uexp' in file:
-        return finDirPath_shinju + file
-    
-    # At this point, the only files that remain are ones of the form: 
-    # 01_eb11_01_PartsStatusTable.uexp
-    if file[3:5] != 'eb':
-        print(file)
-        print(enemyType)        
-        raise Exception("Unexpected file in determining outpath")
+    newStatValue = round(numFromBytes * multipliersDict[enemyType][attr])
+                            
+    newStatValue = min(newStatValue, 2147483647)                 
 
-    return finDirPath_shinju + "\\eb" + file[5:7] + "_Parts\\" + file
+    # new Stat value to 4 byte string
+    bytesToInsert = newStatValue.to_bytes(4, byteorder='little', signed=True)                    
+
+    # Insert new byte slice into mutable byte array
+    mutableBytes[offset:(offset + 4)] = bytesToInsert
 
 
 # We need to check that the directories needed for output exist,
@@ -114,7 +86,7 @@ def makeDirectories():
         path = head + "\\" + val
         if not os.path.exists(path):
             os.makedirs(path)
-
+    
 
 def createEnemyInstances():
     eneDataDir = 'parsed_ene_data'    
@@ -129,7 +101,7 @@ def createEnemyInstances():
             for enemyName, info in yamlData.items():
                 filePath = info['filePath']
                 offsetLoc = info['offsetLoc']
-                print(offsetLoc)
+                # print(offsetLoc)
                 enemyType = info['type_id']
 
                 if enemyType[:7] == "shin_eb":
@@ -137,11 +109,14 @@ def createEnemyInstances():
 
                 Enemy(enemyType, filePath, offsetLoc)
 
+
+enemiesByFile = defaultdict(list)
+
 # List of all instance lists which will include common enemies, bosses, boss limbs, etc.
-enemyCategories = {"common": [], 
-                   "boss"  : [],
-                   "shinju": [],
-                   "parts" : []}
+# enemyCategories = {"common": [], 
+#                    "boss"  : [],
+#                    "shinju": [],
+#                    "parts" : []}
 
 rootDirDict = {"common": r'Game Files\uexp files\Orig', 
                "boss"  : r'Game Files\Boss\Orig\uexp files',
@@ -164,8 +139,8 @@ with open('multipliers-config.yaml', 'r') as file:
 makeDirectories()
 createEnemyInstances()
 
-for enemyType in ['common', 'boss', 'shinju', 'parts']:
-    editHexAll(enemyType)  
+# for enemyType in ['common', 'boss', 'shinju', 'parts']:
+editHexAll()  
 
 
 print("Please check that the directory 'Custom_TofMania - 0.3.2_P' has new files created.\n" \
