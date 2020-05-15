@@ -1,0 +1,22 @@
+base: Custom_TofMania - 0.3.2_P\Trials of Mana\Content\Game00
+
+tails: 
+  - BP\Enemy\Zako\Data
+  - Data\Csv\CharaData
+  - Data\Csv\CharaData\ShinjuStatusTableList
+  - Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts
+  - Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts
+  - Data\Csv\CharaData\ShinjuStatusTableList\eb13_Parts
+  - Data\Csv\CharaData\ShinjuStatusTableList\eb14_Parts
+  - Data\Csv\CharaData\ShinjuStatusTableList\eb15_Parts
+  - Data\Csv\CharaData\ShinjuStatusTableList\eb16_Parts
+  - Data\Csv\CharaData\ShinjuStatusTableList\eb17_Parts
+  - Data\Csv\CharaData\Parts
+  - BP\Enemy\Boss\eb03_01\Data
+  - BP\Enemy\Boss\eb05_01\Data
+  - BP\Enemy\Boss\eb07_01\Data
+  - BP\Enemy\Boss\eb18_01\Data
+  - BP\Enemy\Boss\eb22_01\Data
+  - BP\Enemy\Boss\eb23_01\Data
+  - BP\Enemy\Boss\eb26_01\Data
+  - BP\Enemy\Boss\eb27_01\Data

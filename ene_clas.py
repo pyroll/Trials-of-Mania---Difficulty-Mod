@@ -21,23 +21,22 @@ class Enemy:
 
 
 def editHexAll():        
-    with open("files-to-edit.yaml", 'r') as file:
+    with open("yaml files\\files-to-edit.yaml", 'r') as file:
         files = yaml.load(file, Loader=yaml.FullLoader)    
     
-    for file in files:        
+    for file in files:                
         fullPath = files[file]['fullPath']
-        outPath = files[file]['outPath']                
-
+        outPath = files[file]['outPath']    
+           
         with open(fullPath, 'rb') as f:
             byteData = f.read()
-    
-        # Get data into an array that is mutable
-        mutableBytes = bytearray(byteData)            
-        
-        for enemy in enemiesByFile[fullPath]:
+
+        mutableBytes = bytearray(byteData) 
+
+        for enemy in enemiesByFile[fullPath]:           
             for attr, offset in enemy.attrOffsetDict.items():
-                editBytes(mutableBytes, enemy, attr, offset)                                        
-                    
+                editBytes(mutableBytes, enemy, attr, offset)                                                   
+                                               
         with open(outPath, 'wb') as f:
             f.write(mutableBytes)              
 
@@ -65,49 +64,31 @@ def editBytes(mutableBytes, enemy, attr, offset):
 # We need to check that the directories needed for output exist,
 # if they do not exist, we will create them
 def makeDirectories():
-    with open("required-directories.yaml", 'r') as file:
+    with open("yaml files\\required-directories.yaml", 'r') as file:
         dirs = yaml.load(file, Loader=yaml.FullLoader)
     
     head = dirs['base']
-    # print("base of directories is: " + head)
     if not os.path.exists(head):        
-        # print("and so it is created")
         os.makedirs(head)
         
-    for enemy_type in ['common', 'boss', 'parts']:
-        for key, ene_dir in dirs[enemy_type].items():
-            path = head + "\\" + ene_dir
-            if not os.path.exists(path):
-                os.makedirs(path)
-    
-    head = head + "\\" + dirs['shinju']['base']
-    dirs['shinju'].pop('base') # remove 'base' key as its purpose is different to other members in dir['shinju']
-    for key, val in dirs['shinju'].items():
-        path = head + "\\" + val
-        if not os.path.exists(path):
-            os.makedirs(path)
+    for tail in dirs['tails']:        
+            fullPath = head + "\\" + tail
+            if not os.path.exists(fullPath):
+                os.makedirs(fullPath)
     
 
 def createEnemyInstances():
-    eneDataDir = 'parsed_ene_data'    
-    for root, dirs, files in os.walk(eneDataDir):
-        for file in files:
-            # This will concatenate the 'head' and 'tail' to form the full file path
-            fullPath = os.path.join(root, file)            
+    readiedData = 'yaml files\\parsed_ene_data.yaml'            
 
-            with open(fullPath, 'r') as f:
-                yamlData = yaml.load(f, Loader=yaml.FullLoader)
-            
-            for enemyName, info in yamlData.items():
-                filePath = info['filePath']
-                offsetLoc = info['offsetLoc']
-                # print(offsetLoc)
-                enemyType = info['type_id']
+    with open(readiedData, 'r') as f:
+        yamlData = yaml.load(f, Loader=yaml.FullLoader)
+    
+    for enemyName, info in yamlData.items():
+        filePath = info['filePath']
+        offsetLoc = info['offsetLoc']
+        enemyType = info['type_id']                                              
 
-                if enemyType[:7] == "shin_eb":
-                    enemyType = 'shinju'
-
-                Enemy(enemyType, filePath, offsetLoc)
+        Enemy(enemyType, filePath, offsetLoc)
 
 
 enemiesByFile = defaultdict(list)
@@ -130,10 +111,10 @@ finDirPath_Boss = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\D
 finDirPath_shinju = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\Data\\Csv\\CharaData\\ShinjuStatusTableList\\'
 finDirPath_parts = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\Data\\Csv\\CharaData\\Parts\\'
 
-with open("offsets-config.yaml", 'r') as file:
+with open("yaml files\\offsets-config.yaml", 'r') as file:
     loadedOffsets = yaml.load(file, Loader=yaml.FullLoader)
     
-with open('multipliers-config.yaml', 'r') as file:
+with open('yaml files\\multipliers-config.yaml', 'r') as file:
     multipliersDict = yaml.load(file, Loader=yaml.FullLoader)
 
 makeDirectories()
