@@ -13,11 +13,11 @@ common:
   actionEnable: 453  # 29 * 15
   # ------------------- #
   exp: 822     # Can't use the same pattern for exp
-  dropSpp: 851  # 822 + 29  962
+  dropSpp: 851  # 822 + 29
   itemDrop1: 953
   itemDrop2: 957
   itemDrop3: 961
-
+  # ------------------- #
   DropLuc: 990
   KnockOutDropSpp: 1048
   LAttackDropSpp: 1077
@@ -41,11 +41,11 @@ boss:
   actionEnable: 453  # 29 * 15
   # ------------------- #
   exp: 822     # Can't use the same pattern for exp
-  dropSpp: 851  # 822 + 29  962
+  dropSpp: 851  # 822 + 29
   itemDrop1: 953
   itemDrop2: 957
   itemDrop3: 961
-
+  # ------------------- #
   DropLuc: 990
   KnockOutDropSpp: 1048
   LAttackDropSpp: 1077
@@ -66,11 +66,11 @@ shinju:
   actionEnable: 453  # 29 * 15
   # ------------------- #
   exp: 822     # Can't use the same pattern for exp
-  dropSpp: 851  # 822 + 29  962
+  dropSpp: 851  # 822 + 29
   itemDrop1: 953
   itemDrop2: 957
   itemDrop3: 961
-
+  # ------------------- #
   DropLuc: 990
   KnockOutDropSpp: 1048
   LAttackDropSpp: 1077
@@ -91,11 +91,11 @@ parts:
   actionEnable: 453  # 29 * 15
   # ------------------- #
   exp: 822     # Can't use the same pattern for exp
-  dropSpp: 851  # 822 + 29  962
+  dropSpp: 851  # 822 + 29
   itemDrop1: 953
   itemDrop2: 957
   itemDrop3: 961
-
+  # ------------------- #
   DropLuc: 990
   KnockOutDropSpp: 1048
   LAttackDropSpp: 1077
