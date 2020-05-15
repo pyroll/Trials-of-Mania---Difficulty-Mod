@@ -8,7 +8,20 @@ common:
   luck: 232    # 29 * 8
   defMag: 261  # 29 * 9
   offMag: 290  # 29 * 10
+  downDurable: 319  # 29 * 11  #** This is a float number, needs to be accounted for
+  guardDurable: 377  # 29 * 13  # float number
+  actionEnable: 453  # 29 * 15
+  # ------------------- #
   exp: 822     # Can't use the same pattern for exp
+  dropSpp: 851  # 822 + 29  962
+  itemDrop1: 953
+  itemDrop2: 957
+  itemDrop3: 961
+
+  DropLuc: 990
+  KnockOutDropSpp: 1048
+  LAttackDropSpp: 1077
+  ChargeAttackDropSpp: 1106
 
 # Currently all of these offsets are the same 
 # for these different types of enemies
@@ -23,7 +36,20 @@ boss:
   luck: 232    # 29 * 8
   defMag: 261  # 29 * 9
   offMag: 290  # 29 * 10
+  downDurable: 319  # 29 * 11  #** This is a float number, needs to be accounted for
+  guardDurable: 377  # 29 * 13  # float number
+  actionEnable: 453  # 29 * 15
+  # ------------------- #
   exp: 822     # Can't use the same pattern for exp
+  dropSpp: 851  # 822 + 29  962
+  itemDrop1: 953
+  itemDrop2: 957
+  itemDrop3: 961
+
+  DropLuc: 990
+  KnockOutDropSpp: 1048
+  LAttackDropSpp: 1077
+  ChargeAttackDropSpp: 1106
 
 shinju:
   hp: 0        #  Starting offset for finding stats  
@@ -35,7 +61,20 @@ shinju:
   luck: 232    # 29 * 8
   defMag: 261  # 29 * 9
   offMag: 290  # 29 * 10
+  downDurable: 319  # 29 * 11  #** This is a float number, needs to be accounted for
+  guardDurable: 377  # 29 * 13  # float number
+  actionEnable: 453  # 29 * 15
+  # ------------------- #
   exp: 822     # Can't use the same pattern for exp
+  dropSpp: 851  # 822 + 29  962
+  itemDrop1: 953
+  itemDrop2: 957
+  itemDrop3: 961
+
+  DropLuc: 990
+  KnockOutDropSpp: 1048
+  LAttackDropSpp: 1077
+  ChargeAttackDropSpp: 1106
 
 parts:
   hp: 0        #  Starting offset for finding stats  
@@ -47,4 +86,17 @@ parts:
   luck: 232    # 29 * 8
   defMag: 261  # 29 * 9
   offMag: 290  # 29 * 10
+  downDurable: 319  # 29 * 11  #** This is a float number, needs to be accounted for
+  guardDurable: 377  # 29 * 13  # float number
+  actionEnable: 453  # 29 * 15
+  # ------------------- #
   exp: 822     # Can't use the same pattern for exp
+  dropSpp: 851  # 822 + 29  962
+  itemDrop1: 953
+  itemDrop2: 957
+  itemDrop3: 961
+
+  DropLuc: 990
+  KnockOutDropSpp: 1048
+  LAttackDropSpp: 1077
+  ChargeAttackDropSpp: 1106
