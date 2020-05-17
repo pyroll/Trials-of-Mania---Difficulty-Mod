@@ -10,7 +10,7 @@ common:
   offMag: 290  # 29 * 10
   downDurable: 319  # 29 * 11  #** This is a float number, needs to be accounted for
   guardDurable: 377  # 29 * 13  # float number
-  actionEnable: 453  # 29 * 15
+  # actionEnable: 418  # 29 * 15   # ORIGINAL PRETEST VALUE WAS 453
   # ------------------- #
   exp: 822     # Can't use the same pattern for exp
   dropSpp: 851  # 822 + 29
@@ -38,7 +38,7 @@ boss:
   offMag: 290  # 29 * 10
   downDurable: 319  # 29 * 11  #** This is a float number, needs to be accounted for
   guardDurable: 377  # 29 * 13  # float number
-  actionEnable: 453  # 29 * 15
+  # actionEnable: 418  # 29 * 15
   # ------------------- #
   exp: 822     # Can't use the same pattern for exp
   dropSpp: 851  # 822 + 29
@@ -63,7 +63,7 @@ shinju:
   offMag: 290  # 29 * 10
   downDurable: 319  # 29 * 11  #** This is a float number, needs to be accounted for
   guardDurable: 377  # 29 * 13  # float number
-  actionEnable: 453  # 29 * 15
+  # actionEnable: 418  # 29 * 15
   # ------------------- #
   exp: 822     # Can't use the same pattern for exp
   dropSpp: 851  # 822 + 29
@@ -88,7 +88,7 @@ parts:
   offMag: 290  # 29 * 10
   downDurable: 319  # 29 * 11  #** This is a float number, needs to be accounted for
   guardDurable: 377  # 29 * 13  # float number
-  actionEnable: 453  # 29 * 15
+  # actionEnable: 435  # 29 * 15
   # ------------------- #
   exp: 822     # Can't use the same pattern for exp
   dropSpp: 851  # 822 + 29

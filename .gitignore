@@ -1,3 +1,5 @@
-.vscode/
 __pycache__/
-message.yaml
+.vscode/
+todo.txt
+test-config.yaml
+backup/
