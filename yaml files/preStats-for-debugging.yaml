@@ -42229,3 +42229,246 @@ two:
   luck: 111
   offMag: 196
   type_id: parts
+エンプレスビー:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 230
+  def: 206
+  defMag: 206
+  downDurable: 64.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 6825
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_01.json
+  luck: 120
+  offMag: 228
+  type_id: common
+エンプレスビー_1:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 230
+  def: 206
+  defMag: 206
+  downDurable: 64.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 6815
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_02.json
+  luck: 120
+  offMag: 228
+  type_id: common
+エンプレスビー_2:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 230
+  def: 206
+  defMag: 206
+  downDurable: 64.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 6815
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_03.json
+  luck: 120
+  offMag: 228
+  type_id: common
+エンプレスビー_3:
+  ChargeAttackDropSpp: 3
+  DropLuc: 8600
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 364
+  def: 238
+  defMag: 238
+  downDurable: 1200.0
+  dropSpp: 0
+  exp: 33000
+  guardDurable: 0.0
+  hp: 53600
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_04.json
+  luck: 134
+  offMag: 364
+  type_id: common
+グール:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 185
+  def: 152
+  defMag: 114
+  downDurable: 196.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 1728
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_01.json
+  luck: 89
+  offMag: 184
+  type_id: common
+グール_1:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 191
+  def: 171
+  defMag: 133
+  downDurable: 196.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 1836
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_02.json
+  luck: 100
+  offMag: 190
+  type_id: common
+グール_2:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 229
+  def: 205
+  defMag: 159
+  downDurable: 196.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 2754
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_03.json
+  luck: 100
+  offMag: 228
+  type_id: common
+ゾンビ:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 222
+  def: 182
+  defMag: 136
+  downDurable: 196.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 2592
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_03.json
+  luck: 89
+  offMag: 220
+  type_id: common
+ブラックアンジェラ:
+  ChargeAttackDropSpp: 3
+  DropLuc: 9400
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 243
+  def: 238
+  defMag: 286
+  downDurable: 1200.0
+  dropSpp: 10
+  exp: 28000
+  guardDurable: 0.0
+  hp: 22726
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en22_04\_EnemyStatusTable_en22_04.json
+  luck: 134
+  offMag: 455
+  type_id: common
+ブルーザー:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 221
+  def: 323
+  defMag: 171
+  downDurable: 500.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 1404
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en99_01\_EnemyStatusTable_en99_02.json
+  luck: 100
+  offMag: 190
+  type_id: common
+ミミッククィーン:
+  ChargeAttackDropSpp: 3
+  DropLuc: 9800
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 455
+  def: 238
+  defMag: 198
+  downDurable: 2400.0
+  dropSpp: 0
+  exp: 30000
+  guardDurable: 0.0
+  hp: 64320
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en40_03\_EnemyStatusTable_en40_03.json
+  luck: 127
+  offMag: 364
+  type_id: common
+レグナント:
+  ChargeAttackDropSpp: 3
+  DropLuc: 8000
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 364
+  def: 198
+  defMag: 238
+  downDurable: 1800.0
+  dropSpp: 0
+  exp: 28000
+  guardDurable: 0.0
+  hp: 78254
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_03.json
+  luck: 127
+  offMag: 364
+  type_id: common

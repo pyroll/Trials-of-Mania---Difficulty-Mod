@@ -24,6 +24,8 @@ def preprocessJson():
                 type_id = 'common'
             elif 'boss_eb' in type_id or 'shin_eb' in type_id:
                 type_id = 'parts'
+            elif 'zako' in type_id:
+                type_id = 'common'
 
             # Fix for common and boss using the same root path
             if type_id == 'boss' and 'EnemyStatus' in file:
@@ -55,6 +57,11 @@ jsonDir = {
             'shin_eb16': baseJson + r'\Data\Csv\CharaData\ShinjuStatusTableList\eb16_Parts',
             'shin_eb17': baseJson + r'\Data\Csv\CharaData\ShinjuStatusTableList\eb17_Parts',
             'parts': baseJson + r'\Data\Csv\CharaData\Parts',
+            'zako_en08_03': baseJson + r'\BP\Enemy\Zako\en08_03',
+            'zako_en11_04': baseJson + r'\BP\Enemy\Zako\en11_04',
+            'zako_en22_04': baseJson + r'\BP\Enemy\Zako\en22_04',
+            'zako_en40_03': baseJson + r'\BP\Enemy\Zako\en40_03',
+            'zako_en99_01': baseJson + r'\BP\Enemy\Zako\en99_01'
             }
 
 jsonToParserDict = defaultdict(dict)

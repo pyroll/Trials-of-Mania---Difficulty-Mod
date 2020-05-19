@@ -1,0 +1,67 @@
+# ----------- GENERAL ----------- #
+# This applies the stat modifiers for every type of enemy
+# (common enemies, bosses, boss adds, boss parts)
+
+general:
+  hp: 2   
+  atk: 1.5    
+  def: 1   
+  luck: 1.2  
+  defMag: 1.5
+  offMag: 1.2
+  
+  # exp gained from enemies and stats for adjusting skill points (the blue crystals)
+  # gained
+  exp: 0.8
+  dropSpp: 1
+  KnockOutDropSpp: 0.8
+  LAttackDropSpp: 0.8
+  ChargeAttackDropSpp: 1
+
+  # Lucre amount dropped; item drop chances
+  DropLuc: 1
+  itemDrop1: 1
+  itemDrop2: 1
+  itemDrop3: 1
+  
+  # THESE ARE EXPERIMENTAL AND HAVEN'T BEEN TESTED
+  # My guess is that they deal with how easy it is to stun bosses
+  # Leave at 1 unless you want to test their effects for yourself :)
+  downDurable: 1
+  guardDurable: 1
+
+
+# ----------- TYPE SPECIFIC ----------- #
+# Any UNIQUE changes you would like to apply to a particular type of
+# enemy can be done here. See README.txt for examples.
+
+common:
+  atk: 200
+
+boss:
+  hp: 80
+  downDurable: 6.2
+
+# NOTE: 'shinju' and 'parts' seem to essentially edit the same
+# type of thing: boss limbs and add enemies. After digging through
+# the files, the only difference between them appears to be
+# that 'shinju' deals specifically with the benevodons, and 'parts'
+# with everything else. I HIGHLY RECOMMEND TO SIMPLY COPY PASTE
+# THE SAME VALUES FOR SHINJU AND PARTS for the time being until
+# I implement a better way to handle them. 
+shinju:
+  hp: 30
+
+parts:
+  hp: 30
+
+# ----------- SINGLE ENEMY SPECIFIC ----------- #
+# Any UNIQUE changes you would like to apply to one single enemy
+# can be done here. See README.txt for examples.
+specific:
+  
+  Altar:
+    hp: 3
+    atk: 8
+    itemDrop3: 80
+    downDurable: 99.99

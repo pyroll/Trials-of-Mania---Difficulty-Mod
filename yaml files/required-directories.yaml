@@ -1,4 +1,4 @@
-base: Custom_TofMania - 0.5_P\Trials of Mana\Content\Game00
+base: Custom_TofMania - 0.5.1_P\Trials of Mana\Content\Game00
 
 tails: 
   - BP\Enemy\Zako\Data
@@ -20,3 +20,8 @@ tails:
   - BP\Enemy\Boss\eb23_01\Data
   - BP\Enemy\Boss\eb26_01\Data
   - BP\Enemy\Boss\eb27_01\Data
+  - BP\Enemy\Zako\en08_03
+  - BP\Enemy\Zako\en11_04
+  - BP\Enemy\Zako\en22_04
+  - BP\Enemy\Zako\en40_03
+  - BP\Enemy\Zako\en99_01

@@ -6,79 +6,35 @@ with open('yaml files\\preStats-for-debugging.yaml') as f:
 # our dict for new yaml file
 namesSeparated = {}
 
-# # TODO fix entries like 'BIRD' using multiple enemies
-# namesSeparated['ARMORNIGHT'] = []
-# namesSeparated['ASSASSINBUG'] = []
-# namesSeparated['ArchDemon'] = []
-# namesSeparated['Altar'] = []
-# namesSeparated['Arms'] = []
-# namesSeparated['BARETTE'] = []
-# namesSeparated['BASILISK'] = []
-# namesSeparated['BATTOM'] = []
-# namesSeparated['BEASTMASTER'] = []
-# namesSeparated['BIRD'] = []
-# namesSeparated['BLACKFANG'] = []
-# namesSeparated['BLOODYWOLF'] = []
-# namesSeparated['BOULDER'] = []
-# namesSeparated['BOULDER'] = []
-
-# for name in preNames:
-#     if 'ARMORNIGHT' in name:        
-#         namesSeparated['ARMORNIGHT'].append(name)
-#     if 'ASSASSINBUG' in name:
-#         namesSeparated['ASSASSINBUG'].append(name)
-#     if 'Altar' in name:
-#         namesSeparated['Altar'].append(name)
-#     if 'ArchDemon' in name:
-#         namesSeparated['ArchDemon'].append(name)
-#     if name[:3] == 'Arm':
-#         namesSeparated['Arms'].append(name)
-#     if 'BARETTE' in name:
-#         namesSeparated['BARETTE'].append(name)
-#     if 'BASILISK' in name:
-#         namesSeparated['BASILISK'].append(name)
-#     if 'BATTOM' in name:
-#         namesSeparated['BATTOM'].append(name)
-#     if 'BEASTMASTER' in name:
-#         namesSeparated['BEASTMASTER'].append(name)
-#     if 'BIRD' in name:
-#         namesSeparated['BIRD'].append(name)
-#     if 'BLACKFANG' in name:
-#         namesSeparated['BLACKFANG'].append(name)
-#     if 'BLOODYWOLF' in name:
-#         namesSeparated['BLOODYWOLF'].append(name)
-#     if 'BOULDER' in name:
-#         namesSeparated['BOULDER'].append(name)
-
 # names that aren't grouped with anything
-namesSeparated['Anise'] = []
-namesSeparated['Anise Avatar'] = []
-namesSeparated['AniseDragon']= []
-namesSeparated['Beast Ruger']= []
-namesSeparated['BeastKing']= []
-namesSeparated['BlackKnight'] = []
-namesSeparated['BlackRabi'] = []
-namesSeparated['COCKABIRD_GROWTH_Lv65'] = []
-namesSeparated['COCKATRICE'] = []
-namesSeparated['Crystal'] = []
-namesSeparated['DarkRich'] = []
-namesSeparated['EAGLE'] = []
-namesSeparated['Earl of evil eye'] = []
-namesSeparated['Fallen saint'] = []
-namesSeparated['HighWizard'] = []
-namesSeparated['HugeDragon'] = []
-namesSeparated['JewelryBeast'] = []
-namesSeparated['KARL'] = []
-namesSeparated['ManaStone Black'] = []
-namesSeparated['ManaStone Earth'] = []
-namesSeparated['ManaStone Fire'] = []
-namesSeparated['ManaStone Water'] = []
-namesSeparated['ManaStone Wind'] = []
-namesSeparated['MiniBlackRabi'] = []
-namesSeparated['Roki'] = []
-namesSeparated['SHADOWZERO'] = []
-namesSeparated['SpiralMoon_Gimmick01'] = []
-namesSeparated['two'] = []
+namesSeparated['Anise'] = ['Anise']
+namesSeparated['Anise Avatar'] = ['Anise Avatar']
+namesSeparated['AniseDragon']= ['AniseDragon']
+namesSeparated['Beast Ruger']= ['Beast Ruger']
+namesSeparated['BeastKing']= ['BeastKing']
+namesSeparated['BlackKnight'] = ['BlackKnight']
+namesSeparated['BlackRabi'] = ['BlackRabi']
+namesSeparated['COCKABIRD_GROWTH_Lv65'] = ['COCKABIRD_GROWTH_Lv65']
+namesSeparated['COCKATRICE'] = ['COCKATRICE']
+namesSeparated['Crystal'] = ['Crystal']
+namesSeparated['DarkRich'] = ['DarkRich']
+namesSeparated['EAGLE'] = ['EAGLE']
+namesSeparated['Earl of evil eye'] = ['Earl of evil eye']
+namesSeparated['Fallen saint'] = ['Fallen saint']
+namesSeparated['HighWizard'] = ['HighWizard']
+namesSeparated['HugeDragon'] = ['HugeDragon']
+namesSeparated['JewelryBeast'] = ['JewelryBeast']
+namesSeparated['KARL'] = ['KARL']
+namesSeparated['ManaStone Black'] = ['ManaStone Black']
+namesSeparated['ManaStone Earth'] = ['ManaStone Earth']
+namesSeparated['ManaStone Fire'] = ['ManaStone Fire']
+namesSeparated['ManaStone Water'] = ['ManaStone Water']
+namesSeparated['ManaStone Wind'] = ['ManaStone Wind']
+namesSeparated['MiniBlackRabi'] = ['MiniBlackRabi']
+namesSeparated['Roki'] = ['Roki']
+namesSeparated['SHADOWZERO'] = ['SHADOWZERO']
+namesSeparated['SpiralMoon_Gimmick01'] = ['SpiralMoon_Gimmick01']
+namesSeparated['two'] = ['two']
 
 # TODO check 'CARMILL' in 'CARMILLA':
 # 'Gigaburn_Gimmick' should be 3
@@ -194,5 +150,5 @@ for name in preNames:
 # TODO access namesSeparated and remove keys that are actually
 # separate enemies
 
-with open('testing-names.yaml', 'w') as f:
+with open('yaml files\\name-groups.yaml', 'w') as f:
     yaml.dump(namesSeparated, f)

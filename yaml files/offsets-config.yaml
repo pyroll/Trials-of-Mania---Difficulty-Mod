@@ -100,3 +100,26 @@ parts:
   KnockOutDropSpp: 1048
   LAttackDropSpp: 1077
   ChargeAttackDropSpp: 1106
+
+# Issue that エンプレスビー brought up with its data structure
+exception:
+  hp: 0        
+  atk: 87      
+  def: 116     
+  luck: 232    
+  defMag: 261  
+  offMag: 290  
+  downDurable: 319  
+  guardDurable: 377  
+  
+  # ------------------- #
+  exp: 822     
+  dropSpp: 851  
+  itemDrop1: 953
+  itemDrop2: 957
+  itemDrop3: 961
+  # ------------------- #
+  DropLuc: 990
+  KnockOutDropSpp: 1012
+  LAttackDropSpp: 1041
+  ChargeAttackDropSpp: 1070

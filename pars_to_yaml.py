@@ -23,7 +23,7 @@ def json2yaml():
         offsetIterator = startingOffsetDict[type_id]
 
         # Open our json file and read it
-        with open(fullPath, 'r') as f:
+        with open(fullPath, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
         # Iterate through each enemy/entry in the opened json file
@@ -72,7 +72,6 @@ def countDuplicates(enemyName, dictForYaml):
     return enemyName
 
 
-# TODO duplicates aren't handled correctly
 def processDataForDebugging():
     with open('yaml files\\json-for-parsing.yaml', 'r') as file:
         jsonYamlData = yaml.load(file, Loader=yaml.FullLoader)
@@ -93,7 +92,7 @@ def processDataForDebugging():
         offsetIterator = startingOffsetDict[type_id]
 
         # Open our json file and read it
-        with open(fullPath, 'r') as f:
+        with open(fullPath, 'r', encoding='utf-8') as f:
             data = json.load(f)
     
         # skip dummy enemy        
@@ -157,9 +156,15 @@ def processDataForDebugging():
             enemyLucDrop = entry['Value'][expFinder]["DropLuc"]
 
             # Locate itemdrops
-            enemyDropProb_0 = entry['Value'][expFinder]["DropItemProbability"][0]
-            enemyDropProb_1 = entry['Value'][expFinder]["DropItemProbability"][1]
-            enemyDropProb_2 = entry['Value'][expFinder]["DropItemProbability"][2]        
+            if entry['Value'][expFinder]["DropItemProbability"] == []:
+                enemyDropProb_0 = None
+                enemyDropProb_1 = None
+                enemyDropProb_2 = None
+                pass
+            else:
+                enemyDropProb_0 = entry['Value'][expFinder]["DropItemProbability"][0]
+                enemyDropProb_1 = entry['Value'][expFinder]["DropItemProbability"][1]
+                enemyDropProb_2 = entry['Value'][expFinder]["DropItemProbability"][2]        
 
             # --------------------------------------------------------------- #
             enemyDownDurable = entry['Value']["DownDurableValue_36_9434D3F24A970695E5621AAECED78C93"]
@@ -178,18 +183,31 @@ def processDataForDebugging():
             # --------------------------------------------------------------- #
 
             # check for duplicate 'enemyName' in 'dictForYaml' to avoid an enemy being overwritten                        
-            enemyName = countDuplicates(enemyName, dictForDebug)                
-                    
-            dictForDebug[enemyName] = {'type_id': type_id, 'hp': enemyHP,
-                                        'atk': enemyAtk, 'def': enemyDef,
-                                        'luck': enemyLuck, 'defMag': enemyDefMag,
-                                        'offMag': enemyOffMag, 'exp': enemyExp,
-                                        'dropSpp': enemyDropSpp, 'KnockOutDropSpp': enemyKnockoutSpp,
-                                        'LAttackDropSpp': enemyLAtkSpp, 'ChargeAttackDropSpp': enemyChAtkSpp,
-                                        'DropLuc': enemyLucDrop, 'itemDrop1': enemyDropProb_0,
-                                        'itemDrop2': enemyDropProb_1, 'itemDrop3': enemyDropProb_2,
-                                        'downDurable': enemyDownDurable, 'guardDurable': enemyGuardDurable,
-                                        'actionEnable': enemyActEnable, 'jsonPath': fullPath}            
+            enemyName = countDuplicates(enemyName, dictForDebug)
+
+            # enemyName = enemyName.decode('utf-8')
+
+            if not enemyDropProb_0 and enemyDropProb_0 != 0:
+                dictForDebug[enemyName] = { 'type_id': type_id, 'hp': enemyHP,
+                                            'atk': enemyAtk, 'def': enemyDef,
+                                            'luck': enemyLuck, 'defMag': enemyDefMag,
+                                            'offMag': enemyOffMag, 'exp': enemyExp,
+                                            'dropSpp': enemyDropSpp, 'KnockOutDropSpp': enemyKnockoutSpp,
+                                            'LAttackDropSpp': enemyLAtkSpp, 'ChargeAttackDropSpp': enemyChAtkSpp,
+                                            'DropLuc': enemyLucDrop,
+                                            'downDurable': enemyDownDurable, 'guardDurable': enemyGuardDurable,
+                                            'actionEnable': enemyActEnable, 'jsonPath': fullPath}
+            else:
+                dictForDebug[enemyName] = { 'type_id': type_id, 'hp': enemyHP,
+                                            'atk': enemyAtk, 'def': enemyDef,
+                                            'luck': enemyLuck, 'defMag': enemyDefMag,
+                                            'offMag': enemyOffMag, 'exp': enemyExp,
+                                            'dropSpp': enemyDropSpp, 'KnockOutDropSpp': enemyKnockoutSpp,
+                                            'LAttackDropSpp': enemyLAtkSpp, 'ChargeAttackDropSpp': enemyChAtkSpp,
+                                            'DropLuc': enemyLucDrop, 'itemDrop1': enemyDropProb_0,
+                                            'itemDrop2': enemyDropProb_1, 'itemDrop3': enemyDropProb_2,
+                                            'downDurable': enemyDownDurable, 'guardDurable': enemyGuardDurable,
+                                            'actionEnable': enemyActEnable, 'jsonPath': fullPath}            
 
 
 # enemyCategories = ['common', 'boss', 'shinju', 'parts']
@@ -216,11 +234,11 @@ incrementOffsetDict = {
 json2yaml()
 
 # write new yaml file
-with open('yaml files\\parsed_ene_data.yaml', 'w') as file:
-    documents = yaml.dump(dictForYaml, file)
+with open('yaml files\\parsed_ene_data.yaml', 'w', encoding='utf-8') as file:    
+    yaml.safe_dump(dictForYaml, file, allow_unicode=True)
 
 
 processDataForDebugging()
 
-with open('yaml files\\preStats-for-debugging.yaml', 'w') as file:
-        yaml.dump(dictForDebug, file)
+with open('yaml files\\preStats-for-debugging.yaml', 'w', encoding='utf-8') as file:
+    yaml.safe_dump(dictForDebug, file, allow_unicode=True)

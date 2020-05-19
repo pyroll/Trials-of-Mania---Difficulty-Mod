@@ -2,6 +2,8 @@ import os
 import yaml
 from collections import defaultdict
 
+# from ene_clas import currentVersionTitle
+
 
 def preprocessFiles():
     rootdir = r'Game Files\Trials of Mana\Content\Game00'
@@ -13,7 +15,7 @@ def preprocessFiles():
             # This will concatenate the 'head' and 'tail' to form the full file path
             fullPath = os.path.join(root, file)
 
-            outPath = fullPath.replace('Game Files', 'Custom_TofMania - 0.5_P')
+            outPath = fullPath.replace('Game Files', 'Custom_TofMania - 0.5.1_P')
 
             filesToEditDict[file]["fullPath"] = fullPath
             filesToEditDict[file]["outPath"] = outPath        

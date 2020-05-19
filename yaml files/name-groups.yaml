@@ -68,9 +68,12 @@ Altar:
 - Altar_A
 - Altar_B
 - Altar_C
-Anise: []
-Anise Avatar: []
-AniseDragon: []
+Anise:
+- Anise
+Anise Avatar:
+- Anise Avatar
+AniseDragon:
+- AniseDragon
 ArchDemon:
 - ArchDemon
 - ArchDemon ArmL
@@ -295,8 +298,10 @@ BOUNDWOLF:
 - BOUNDWOLF_Lv30
 - BOUNDWOLF_Lv31
 - BOUNDWOLF_Lv6
-Beast Ruger: []
-BeastKing: []
+Beast Ruger:
+- Beast Ruger
+BeastKing:
+- BeastKing
 Ben:
 - Ben
 - Ben_1
@@ -310,8 +315,10 @@ Bill:
 Bill and Ben:
 - Bill and Ben
 - Bill and Ben_1
-BlackKnight: []
-BlackRabi: []
+BlackKnight:
+- BlackKnight
+BlackRabi:
+- BlackRabi
 Body:
 - Body
 - Body_1
@@ -400,7 +407,8 @@ CARMILLA:
 - CARMILLA_Lv46
 - CARMILLA_Lv48
 - CARMILLA_Lv50
-COCKABIRD_GROWTH_Lv65: []
+COCKABIRD_GROWTH_Lv65:
+- COCKABIRD_GROWTH_Lv65
 COCKATBIRD:
 - COCKATBIRD_LV23
 - COCKATBIRD_Lv38
@@ -410,11 +418,13 @@ COCKATBIRD:
 - COCKATBIRD_Lv46
 - COCKATBIRD_Lv48
 - COCKATBIRD_Lv50
-COCKATRICE: []
+COCKATRICE:
+- COCKATRICE
 CrimsonWizard:
 - CrimsonWizard
 - CrimsonWizardEvent
-Crystal: []
+Crystal:
+- Crystal
 DARKBATTOM:
 - DARKBATTOM
 - DARKBATTOM_1
@@ -548,7 +558,8 @@ Dangard:
 - Dangard_5
 - Dangard_6
 - Dangard_7
-DarkRich: []
+DarkRich:
+- DarkRich
 Doran:
 - Doran
 - Doran_1
@@ -558,7 +569,8 @@ Doran:
 - Doran_5
 - Doran_6
 - Doran_7
-EAGLE: []
+EAGLE:
+- EAGLE
 ELEMENTSWORD:
 - ELEMENTSWORD
 - ELEMENTSWORD_1
@@ -592,7 +604,8 @@ EVILSWORD:
 Eagle:
 - Eagle
 - Eagle_1
-Earl of evil eye: []
+Earl of evil eye:
+- Earl of evil eye
 Eye:
 - Eye
 - Eye_1
@@ -651,7 +664,8 @@ FROSTDRAGON:
 - FROSTDRAGON_Lv59
 - FROSTDRAGON_Lv60
 - FROSTDRAGON_Lv64
-Fallen saint: []
+Fallen saint:
+- Fallen saint
 Feegu Mund:
 - Feegu Mund
 - Feegu Mund_1
@@ -676,7 +690,6 @@ GALBEE:
 - GALBEE_LV12
 - GALBEE_LV13
 - GALBEE_LV23
-- UNUSED_GALBEE_LV11
 GHOST:
 - GHOST
 - GHOST_1
@@ -1024,12 +1037,15 @@ Head:
 HellSouthernCross_Gimick:
 - HellSouthernCross_Gimick01
 - HellSouthernCross_Gimick02
-HighWizard: []
-HugeDragon: []
+HighWizard:
+- HighWizard
+HugeDragon:
+- HugeDragon
 Jewel Eater:
 - Jewel Eater
 - Jewel EaterR
-JewelryBeast: []
+JewelryBeast:
+- JewelryBeast
 KAISERMIMIC:
 - KAISERMIMIC
 - KAISERMIMIC_1
@@ -1045,7 +1061,8 @@ KAISERMIMIC:
 - KAISERMIMIC_Lv64
 - KAISERMIMIC_Lv67
 - KAISERMIMIC_lv69
-KARL: []
+KARL:
+- KARL
 KERBEROS:
 - KERBEROS
 - KERBEROS_1
@@ -1257,12 +1274,18 @@ MEGACRAWLER:
 MachineGolem:
 - MachineGolemR
 - MachineGolemS
-ManaStone Black: []
-ManaStone Earth: []
-ManaStone Fire: []
-ManaStone Water: []
-ManaStone Wind: []
-MiniBlackRabi: []
+ManaStone Black:
+- ManaStone Black
+ManaStone Earth:
+- ManaStone Earth
+ManaStone Fire:
+- ManaStone Fire
+ManaStone Water:
+- ManaStone Water
+ManaStone Wind:
+- ManaStone Wind
+MiniBlackRabi:
+- MiniBlackRabi
 Mispolm:
 - Mispolm
 - Mispolm Ivy
@@ -1702,7 +1725,8 @@ RASTERBUG:
 - RASTERBUG_LV54
 - RASTERBUG_Lv53
 - RASTERBUG_Lv64
-Roki: []
+Roki:
+- Roki
 RouletteDeath:
 - RouletteDeath_Actor01
 - RouletteDeath_Actor02
@@ -2048,7 +2072,8 @@ ShadowDummy4:
 ShadowDummy5:
 - ShadowDummy5
 - ShadowDummy5_1
-SpiralMoon_Gimmick01: []
+SpiralMoon_Gimmick01:
+- SpiralMoon_Gimmick01
 Tail:
 - Tail
 - Tail_1
@@ -2163,4 +2188,5 @@ Zhenker:
 - Zhenker
 - Zhenker_1
 - Zhenker_2
-two: []
+two:
+- two

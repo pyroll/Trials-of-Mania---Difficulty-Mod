@@ -5,30 +5,30 @@
 general:
   hp: 2   
   atk: 1.5    
-  def: 1   
+  def: 5   
   luck: 1.2  
-  defMag: 1
-  offMag: 1
+  defMag: 5.3
+  offMag: 5.3
   
   # exp gained from enemies and stats for adjusting skill points (the blue crystals)
   # gained
   exp: 0.8
-  dropSpp: 1
+  dropSpp: 5.3
   KnockOutDropSpp: 0.8
   LAttackDropSpp: 0.8
-  ChargeAttackDropSpp: 1
+  ChargeAttackDropSpp: 5.3
 
   # Lucre amount dropped; item drop chances
-  DropLuc: 1
-  itemDrop1: 1
-  itemDrop2: 1
-  itemDrop3: 1
+  DropLuc: 5.3
+  itemDrop1: 5
+  itemDrop2: 5
+  itemDrop3: 5
   
   # THESE ARE EXPERIMENTAL AND HAVEN'T BEEN TESTED
   # My guess is that they deal with how easy it is to stun bosses
   # Leave at 1 unless you want to test their effects for yourself :)
-  downDurable: 1
-  guardDurable: 1
+  downDurable: 5.3
+  guardDurable: 5.3
 
 
 # ----------- TYPE SPECIFIC ----------- #
@@ -51,9 +51,11 @@ boss:
 # I implement a better way to handle them. 
 shinju:
   hp: 30
+  def: 4
 
 parts:
   hp: 30
+  def: 4
 
 # ----------- SINGLE ENEMY SPECIFIC ----------- #
 # Any UNIQUE changes you would like to apply to one single enemy
@@ -65,3 +67,15 @@ specific:
     atk: 8
     itemDrop3: 80
     downDurable: 99.99
+  
+  Altar_5:
+    hp: 200
+  
+  Anise:
+    hp: 100
+    atk: 2
+    def: 1.5
+    defMag: 2
+
+  SHAPESHIFTER:
+    itemDrop1: 30

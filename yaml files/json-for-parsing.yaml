@@ -304,6 +304,36 @@ _EnemyStatusTable_eb23_en37_02.json:
 _EnemyStatusTable_eb27_en39_03.json:
   fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb27_01\Data\_EnemyStatusTable_eb27_en39_03.json
   type_id: parts
+_EnemyStatusTable_en08_01.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_01.json
+  type_id: common
+_EnemyStatusTable_en08_02.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_02.json
+  type_id: common
+_EnemyStatusTable_en08_03.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_03.json
+  type_id: common
+_EnemyStatusTable_en11_01.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_01.json
+  type_id: common
+_EnemyStatusTable_en11_02.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_02.json
+  type_id: common
+_EnemyStatusTable_en11_03.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_03.json
+  type_id: common
+_EnemyStatusTable_en11_04.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_04.json
+  type_id: common
+_EnemyStatusTable_en22_04.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en22_04\_EnemyStatusTable_en22_04.json
+  type_id: common
+_EnemyStatusTable_en40_03.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en40_03\_EnemyStatusTable_en40_03.json
+  type_id: common
+_EnemyStatusTable_en99_02.json:
+  fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en99_01\_EnemyStatusTable_en99_02.json
+  type_id: common
 _GodEnemyCustomStatusTable.json:
   fullPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\_GodEnemyCustomStatusTable.json
   type_id: common

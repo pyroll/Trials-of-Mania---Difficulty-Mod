@@ -8042,3 +8042,51 @@ two:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb05_01\Data\eb05_SummonEnemyStatusTable_Shape.uexp
   offsetLoc: 1690
   type_id: parts
+エンプレスビー:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\EnemyStatusTable_en11_01.uexp
+  offsetLoc: 111
+  type_id: common
+エンプレスビー_1:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\EnemyStatusTable_en11_02.uexp
+  offsetLoc: 111
+  type_id: common
+エンプレスビー_2:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\EnemyStatusTable_en11_03.uexp
+  offsetLoc: 111
+  type_id: common
+エンプレスビー_3:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\EnemyStatusTable_en11_04.uexp
+  offsetLoc: 111
+  type_id: common
+グール:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\EnemyStatusTable_en08_01.uexp
+  offsetLoc: 111
+  type_id: common
+グール_1:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\EnemyStatusTable_en08_02.uexp
+  offsetLoc: 111
+  type_id: common
+グール_2:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\EnemyStatusTable_en08_03.uexp
+  offsetLoc: 3269
+  type_id: common
+ゾンビ:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\EnemyStatusTable_en08_03.uexp
+  offsetLoc: 1690
+  type_id: common
+ブラックアンジェラ:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en22_04\EnemyStatusTable_en22_04.uexp
+  offsetLoc: 111
+  type_id: common
+ブルーザー:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en99_01\EnemyStatusTable_en99_02.uexp
+  offsetLoc: 111
+  type_id: common
+ミミッククィーン:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en40_03\EnemyStatusTable_en40_03.uexp
+  offsetLoc: 111
+  type_id: common
+レグナント:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\EnemyStatusTable_en08_03.uexp
+  offsetLoc: 111
+  type_id: common

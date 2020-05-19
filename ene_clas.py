@@ -19,13 +19,12 @@ class Enemy:
             self.attrOffsetDict[attr] = hpOffset + offset
 
 
-# TODO begin testing edits with test-config.yaml; use that one when finished
 def editHexAll():
     with open("yaml files\\files-to-edit.yaml", 'r') as file:
         files = yaml.load(file, Loader=yaml.FullLoader)
 
     # needed for debugEdits()
-    with open("yaml files\\preStats-for-debugging.yaml", 'r') as file:
+    with open("yaml files\\preStats-for-debugging.yaml", 'r', encoding='utf-8') as file:
         preStatsData = yaml.load(file, Loader=yaml.FullLoader)    
     
     for file in files:                
@@ -46,38 +45,61 @@ def editHexAll():
             f.write(mutableBytes)              
 
 
-# TODO Currently testing with test-config.yaml
 def editBytes(mutableBytes, enemy, attr, offset, preStatsData):    
     enemyType = enemy.enemyType
     enemyName = enemy.enemyName    
+    ourSpecialMultiplier = None
 
-    # use specific name grouping
-    if multipliersDict['specific'] == None:
+    # Make an exception to the rule for エンプレスビー since it has a different
+    # data structure
+    if enemyType == 'exception':
+        enemyType = 'common'
+
+    # Check if both specific is empty and this enemy's type is not empty
+    if multipliersDict['specific'] == None:        
         if multipliersDict[enemyType] != None:
             if attr in multipliersDict[enemyType]:
-                ourSpecialMultiplier = multipliersDict[enemyType][attr]
+                ourSpecialMultiplier = multipliersDict[enemyType][attr]                
             else:
                 ourSpecialMultiplier = multipliersDict['general'][attr]
-    else:
+        elif multipliersDict[enemyType] == None:
+            ourSpecialMultiplier = multipliersDict['general'][attr]     
+    elif multipliersDict['specific'] != None:
         for i in multipliersDict['specific']:
-            if enemyName in namesGroups[i]:
-                # groupName = namesGroups[i]
+            if enemyName == i:
                 if attr in multipliersDict['specific'][i]:
                     ourSpecialMultiplier = multipliersDict['specific'][i][attr]
+                    break
+        
+        if ourSpecialMultiplier == None:
+            for i in multipliersDict['specific']:
+                if not i in namesGroups:
+                    continue
                 else:
-                    pass
-    # Check for specific overrides
-            if enemyName in multipliersDict['specific']:
-                if attr in multipliersDict['specific'][enemyName]:
-                    # This replaced the old 'multipliersDict[enemyType][attr]' below
-                    ourSpecialMultiplier = multipliersDict['specific'][enemyName][attr]
-            elif multipliersDict[enemyType] != None:
+                    if enemyName in namesGroups[i]:
+                        # groupName = namesGroups[i]
+                        if attr in multipliersDict['specific'][i]:
+                            ourSpecialMultiplier = multipliersDict['specific'][i][attr]
+                            break                
+                        # Check for specific overrides
+                        elif enemyName in multipliersDict['specific']:
+                            if attr in multipliersDict['specific'][enemyName]:
+                                # This replaced the old 'multipliersDict[enemyType][attr]' below
+                                ourSpecialMultiplier = multipliersDict['specific'][enemyName][attr]
+                                break
+                    else:
+                        continue
+        
+        if ourSpecialMultiplier == None:
+            if multipliersDict[enemyType] != None:
                 if attr in multipliersDict[enemyType]:
-                    ourSpecialMultiplier = multipliersDict[enemyType][attr]
+                    ourSpecialMultiplier = multipliersDict[enemyType][attr]                    
                 else:
-                    ourSpecialMultiplier = multipliersDict['general'][attr]
+                    ourSpecialMultiplier = multipliersDict['general'][attr]                    
             else:
                 ourSpecialMultiplier = multipliersDict['general'][attr] 
+
+    assert ourSpecialMultiplier != None
 
     # Original slice of four bytes in data that we will edit
     fourBytesToEdit = mutableBytes[offset:(offset + 4)]                    
@@ -116,14 +138,17 @@ def editBytes(mutableBytes, enemy, attr, offset, preStatsData):
 
 def debugEdits(enemyName, enemyType, attr, newStatValue, preStatsData, ourSpecialMultiplier):    
     preEditEnemy = preStatsData[enemyName]
-    preStat = preEditEnemy[attr]
-    currentMultiplier = ourSpecialMultiplier
-
-    if type(preStat) == float:
-        roundedNewStatValue = round(newStatValue, 1)
-        assert preStat * currentMultiplier == roundedNewStatValue
+    if attr not in preEditEnemy:
+        pass
     else:
-        assert round(preStat * currentMultiplier) == newStatValue
+        preStat = preEditEnemy[attr]
+        currentMultiplier = ourSpecialMultiplier
+
+        if type(preStat) == float:
+            roundedNewStatValue = round(newStatValue, 1)
+            assert round((preStat * currentMultiplier), 1) == roundedNewStatValue
+        else:
+            assert round(preStat * currentMultiplier) == newStatValue
 
 
 # We need to check that the directories needed for output exist,
@@ -145,48 +170,45 @@ def makeDirectories():
 def createEnemyInstances():
     readiedData = 'yaml files\\parsed_ene_data.yaml'            
 
-    with open(readiedData, 'r') as f:
+    with open(readiedData, 'r', encoding='utf-8') as f:
         yamlData = yaml.load(f, Loader=yaml.FullLoader)
     
-    for enemyName, info in yamlData.items():        
+    for enemyName, info in yamlData.items():                        
         filePath = info['filePath']
         offsetLoc = info['offsetLoc']
-        enemyType = info['type_id']                                              
+        
+        if 'エンプレスビー' in enemyName and enemyName != 'エンプレスビー_3':
+            enemyType = 'exception'
+        else:
+            enemyType = info['type_id']
+                                                      
 
         Enemy(enemyName, enemyType, filePath, offsetLoc)
 
 
 enemiesByFile = defaultdict(list)
 
-# rootDirDict = {"common": r'Game Files\uexp files\Orig', 
-#                "boss"  : r'Game Files\Boss\Orig\uexp files',
-#                "shinju": r'Game Files\Boss\Orig\uexp files\ShinjuStatusTableList',
-#                "parts" : r'Game Files\Boss\Orig\uexp files\Parts'}
-
-# paths we want the edited files to output to for UnrealPak.exe
-# finDirPath_BP = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\BP\\Enemy\\Zako\\Data\\'
-# finDirPath_Data = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\Data\\Csv\\CharaData\\'
-# finDirPath_Boss = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\Data\\Csv\\CharaData\\'
-# finDirPath_shinju = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\Data\\Csv\\CharaData\\ShinjuStatusTableList\\'
-# finDirPath_parts = 'Custom_TofMania - 0.3.2_P\\Trials of Mana\\Content\\Game00\\Data\\Csv\\CharaData\\Parts\\'
-
-with open("yaml files\\offsets-config.yaml", 'r') as file:
-    loadedOffsets = yaml.load(file, Loader=yaml.FullLoader)
-
-with open("multipliers-config.yaml", 'r') as file:
-    multipliersDict = yaml.load(file, Loader=yaml.FullLoader)
-
-with open("yaml files\\name-groups.yaml", 'r') as file:
-    namesGroups = yaml.load(file, Loader=yaml.FullLoader)
+currentVersionTitle = 'Custom_TofMania - 0.5.1_P'
 
 
-makeDirectories()
-createEnemyInstances()
+if __name__ == '__main__':
+    with open("yaml files\\offsets-config.yaml", 'r', encoding='utf-8') as file:
+        loadedOffsets = yaml.load(file, Loader=yaml.FullLoader)
 
-editHexAll()  
+    with open("multipliers-config.yaml", 'r') as file:
+        multipliersDict = yaml.load(file, Loader=yaml.FullLoader)
+
+    with open("yaml files\\name-groups.yaml", 'r') as file:
+        namesGroups = yaml.load(file, Loader=yaml.FullLoader)
 
 
-print("Please check that the directory 'Custom_TofMania - 0.5_P' has new files created.\n" \
-        "If the files existed before running this script, they should be updated now.\n")
+    makeDirectories()
+    createEnemyInstances()
 
-closeVar = input("Press 'enter' to exit the console.")
+    editHexAll()  
+
+
+    print("Please check that the directory " + currentVersionTitle + " has new files created.\n" \
+            "If the files existed before running this script, they should be updated now.\n")
+
+    closeVar = input("Press 'enter' to exit the console.")
