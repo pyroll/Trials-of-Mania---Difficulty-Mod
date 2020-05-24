@@ -188,8 +188,9 @@ def createEnemyInstances():
 
 enemiesByFile = defaultdict(list)
 
-currentVersionTitle = 'Custom_TofMania - 0.5.1_P'
+currentVersionTitle = 'Custom_TofMania - 0.5.2_P'
 
+print('Editing in process...')
 
 if __name__ == '__main__':
     with open("yaml files\\offsets-config.yaml", 'r', encoding='utf-8') as file:
