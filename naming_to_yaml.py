@@ -1,6 +1,6 @@
 import yaml
 
-with open('yaml files\\preStats-for-debugging.yaml') as f:
+with open('yaml files\\preStats-for-debugging.yaml', encoding='utf-8') as f:
     preNames = yaml.load(f, Loader=yaml.FullLoader)
 
 # our dict for new yaml file
@@ -8,28 +8,31 @@ namesSeparated = {}
 
 # names that aren't grouped with anything
 namesSeparated['Anise'] = ['Anise']
-namesSeparated['Anise Avatar'] = ['Anise Avatar']
-namesSeparated['AniseDragon']= ['AniseDragon']
-namesSeparated['Beast Ruger']= ['Beast Ruger']
-namesSeparated['BeastKing']= ['BeastKing']
+namesSeparated['AniseAvatar'] = ['AniseAvatar']
+namesSeparated['AniseDragon'] = ['AniseDragon']
+namesSeparated['Ancient_BlackRabi'] = ['Ancient_BlackRabi']
+namesSeparated['BeastRuger'] = ['BeastRuger']
+namesSeparated['BeastKing'] = ['BeastKing']
 namesSeparated['BlackKnight'] = ['BlackKnight']
 namesSeparated['BlackRabi'] = ['BlackRabi']
 namesSeparated['COCKABIRD_GROWTH_Lv65'] = ['COCKABIRD_GROWTH_Lv65']
 namesSeparated['COCKATRICE'] = ['COCKATRICE']
-namesSeparated['Crystal'] = ['Crystal']
+namesSeparated['CrimsonDust_AniseDrugon'] = ['CrimsonDust_AniseDrugon']
+#namesSeparated['Crystal'] = ['Crystal']
 namesSeparated['DarkRich'] = ['DarkRich']
 namesSeparated['EAGLE'] = ['EAGLE']
-namesSeparated['Earl of evil eye'] = ['Earl of evil eye']
-namesSeparated['Fallen saint'] = ['Fallen saint']
+namesSeparated['EarlOfEvilEye'] = ['EarlOfEvilEye']
+namesSeparated['EmpressBee'] = ['EmpressBee']
+namesSeparated['FallenSaint'] = ['FallenSaint']
 namesSeparated['HighWizard'] = ['HighWizard']
 namesSeparated['HugeDragon'] = ['HugeDragon']
 namesSeparated['JewelryBeast'] = ['JewelryBeast']
 namesSeparated['KARL'] = ['KARL']
-namesSeparated['ManaStone Black'] = ['ManaStone Black']
-namesSeparated['ManaStone Earth'] = ['ManaStone Earth']
-namesSeparated['ManaStone Fire'] = ['ManaStone Fire']
-namesSeparated['ManaStone Water'] = ['ManaStone Water']
-namesSeparated['ManaStone Wind'] = ['ManaStone Wind']
+namesSeparated['ManaStoneBlack'] = ['ManaStoneBlack']
+namesSeparated['ManaStoneEarth'] = ['ManaStoneEarth']
+namesSeparated['ManaStoneFire'] = ['ManaStoneFire']
+namesSeparated['ManaStoneWater'] = ['ManaStoneWater']
+namesSeparated['ManaStoneWind'] = ['ManaStoneWind']
 namesSeparated['MiniBlackRabi'] = ['MiniBlackRabi']
 namesSeparated['Roki'] = ['Roki']
 namesSeparated['SHADOWZERO'] = ['SHADOWZERO']
@@ -44,25 +47,25 @@ namesSeparated['two'] = ['two']
 repeatedNames = ['ARMORNIGHT', 'ASSASSINBUG', 'Altar', 'ArchDemon', 'Arm',
                  'BARETTE', 'BASILISK', 'BATTOM', 'BEASTMASTER',
                  'BIRD', 'BLACKFANG', 'BLOODYWOLF', 'BOULDER',
-                 'BOUNDWOLF', 'Ben', 'Bill', 'Bill and Ben',
+                 'BOUNDWOLF', 'Ben', 'Bill', 'BillAndBen',
                  'Body', 'Bruiser', 'CARMILLA', 'COCKATBIRD',
                  'CrimsonWizard', 'DARKBATTOM', 'DARKLORD',
                  'DARKPRIEST', 'DARTHMATANGO', 'DEATHMACHINE',
                  'DUCKGENERAL', 'DUCKSOLDIER', 'Dangard',
                  'Doran', 'ELEMENTSWORD', 'EVILSHERMAN', 'EVILSWORD',
-                 'Eagle', 'Eye', 'FIREDRAKE', 'FROSTDRAGON', 'Feegu Mund',
+                 'Eagle', 'Eye', 'FIREDRAKE', 'FROSTDRAGON', 'FeeguMund',
                  'Flower', 'FullmetalHugger', 'GALBEE', 'GHOST', 'GHOUL',
                  'GIGACRAWLER', 'GOBLIN', 'GOBLINLORD', 'GOLDBARETTE', 'GOLDUNICO',
                  'GREATDAEMON', 'GREATDAEMON_SUMMON', 'GREATRABI', 'GRELL', 'GRELLMAGE', 'GREMLINS',
                  'GREMLINS_SUMMON', 'GUARDIAN',
-                 'Genoa', 'Gigaburn_Gimmick', 'Gorva', 'GreadDeamon', 'Guilder Vine', 'HARPY',
+                 'Genoa', 'Gigaburn_Gimmick', 'Gorva', 'GreadDeamon', 'GuilderVine', 'HARPY',
                  'HIGHWIZARD', 'HandLB', 'HandRB', 'Head', 'HellSouthernCross_Gimick',
-                 'Jewel Eater', 'KAISERMIMIC', 'KERBEROS', 'KINGRABI', 'KNIGHTBLADE', 'Karl',
-                 'LADYBEE', 'LESSERDAEMON', 'LITTLEDEVIL', 'Land amber', 'Light Geizer',
+                 'JewelEater', 'KAISERMIMIC', 'KERBEROS', 'KINGRABI', 'KNIGHTBLADE', 'Karl',
+                 'LADYBEE', 'LESSERDAEMON', 'LITTLEDEVIL', 'LandAmber', 'LightGeizer',
                  'MACHINEGOLEM', 'MAGICIAN', 'MAIKONIDO', 'MALLBEAR', 'MAMAPOT', 'MEGACRAWLER',
                  'MachineGolem', 'Mispolm', 'NECROMANCER', 'NEEDLEBIRD', 'NIDORION', 'NINJA',
                  'NINJAMASTER', 'Neck', 'None', 'OGREBOX', 'PAKKUNDRAGON', 'PAKKUNOTAMA',
-                 'PAKKUNTOKAGE', 'PAKKURIOTAMA', 'PAPAPOT', 'PETIDRAZOMBIE', 'PETITDRAGON', 
+                 'PAKKUNTOKAGE', 'PAKKURIOTAMA', 'PAPAPOT', 'PETIDRAZOMBIE', 'PETITDRAGON',
                  'PETITIAMATT', 'PETITPOSEIDON', 'POROBINHOOD', 'POROBINLEADER', 'PORON',
                  'POT', 'POWERBOULDER', 'QUEENBEE', 'RABI', 'RABIRION', 'RASTERBUG',
                  'RouletteDeath', 'SAHAGIN', 'SAHUAGIN', 'SEADRAGON', 'SEASERPENT',
@@ -75,7 +78,7 @@ repeatedNames = ['ARMORNIGHT', 'ASSASSINBUG', 'Altar', 'ArchDemon', 'Arm',
                  'SWORDMASTER', 'SWORDNIGHT', 'Sablehor', 'Shadow', 'ShadowDummy1',
                  'ShadowDummy2', 'ShadowDummy3', 'ShadowDummy4', 'ShadowDummy5',
                  'Tail', 'UNICORNHEAD', 'UNUSED', 'WEREWOLF', 'WIZARD', 'WOLFDEVIL',
-                 'ZOMBIE', 'Zan Bie', 'Zhenker']
+                 'ZOMBIE', 'ZanBie', 'Zhenker']
 
 for name in repeatedNames:
     namesSeparated[name] = []
@@ -83,7 +86,7 @@ for name in repeatedNames:
 for name in preNames:
     for repName in repeatedNames:
         if repName in name:
-            if repName == 'RABI' and 'RABIRION' in name:                
+            if repName == 'RABI' and 'RABIRION' in name:
                 continue
             if repName == 'ARMORNIGHT' and 'UNUSED' in name:
                 continue

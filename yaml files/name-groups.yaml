@@ -68,16 +68,23 @@ Altar:
 - Altar_A
 - Altar_B
 - Altar_C
+Ancient_BlackRabi:
+- Ancient_BlackRabi
 Anise:
 - Anise
-Anise Avatar:
-- Anise Avatar
+AniseAvatar:
+- AniseAvatar
 AniseDragon:
 - AniseDragon
 ArchDemon:
 - ArchDemon
-- ArchDemon ArmL
-- ArchDemon ArmR
+- ArchDemonArmL
+- ArchDemonArmR
+- Gigaburn_1_ArchDemon
+- Gigaburn_2_ArchDemon
+- Gigaburn_3_ArchDemon
+- HellSouthernCross_1_ArchDemon
+- HellSouthernCross_2_ArchDemon
 Arm:
 - ArmL
 - ArmLB
@@ -89,14 +96,7 @@ Arm:
 - ArmL_12
 - ArmL_13
 - ArmL_14
-- ArmL_15
-- ArmL_16
-- ArmL_17
-- ArmL_18
-- ArmL_19
 - ArmL_2
-- ArmL_20
-- ArmL_21
 - ArmL_3
 - ArmL_4
 - ArmL_5
@@ -130,14 +130,7 @@ Arm:
 - ArmR_12
 - ArmR_13
 - ArmR_14
-- ArmR_15
-- ArmR_16
-- ArmR_17
-- ArmR_18
-- ArmR_19
 - ArmR_2
-- ArmR_20
-- ArmR_21
 - ArmR_3
 - ArmR_4
 - ArmR_5
@@ -165,6 +158,20 @@ Arm:
 - ArmTipL_1
 - ArmTipR
 - ArmTipR_1
+- LandAmberArmL
+- LandAmberArmL_1
+- LandAmberArmL_2
+- LandAmberArmL_3
+- LandAmberArmL_4
+- LandAmberArmL_5
+- LandAmberArmL_6
+- LandAmberArmR
+- LandAmberArmR_1
+- LandAmberArmR_2
+- LandAmberArmR_3
+- LandAmberArmR_4
+- LandAmberArmR_5
+- LandAmberArmR_6
 BARETTE:
 - BARETTE
 - BARETTE_1
@@ -254,7 +261,6 @@ BLOODYWOLF:
 - BLOODYWOLF_1
 - BLOODYWOLF_10
 - BLOODYWOLF_11
-- BLOODYWOLF_12
 - BLOODYWOLF_2
 - BLOODYWOLF_3
 - BLOODYWOLF_4
@@ -272,6 +278,7 @@ BLOODYWOLF:
 - BLOODYWOLF_Lv48
 - BLOODYWOLF_Lv50
 - BLOODYWOLF_lv71
+- EarlOfEvilEye_BLOODYWOLF
 BOULDER:
 - BOULDER
 - BOULDER_1
@@ -298,23 +305,23 @@ BOUNDWOLF:
 - BOUNDWOLF_Lv30
 - BOUNDWOLF_Lv31
 - BOUNDWOLF_Lv6
-Beast Ruger:
-- Beast Ruger
 BeastKing:
 - BeastKing
+BeastRuger:
+- BeastRuger
 Ben:
 - Ben
 - Ben_1
-- Bill and Ben
-- Bill and Ben_1
+- BillAndBen
+- BillAndBen_1
 Bill:
 - Bill
-- Bill and Ben
-- Bill and Ben_1
+- BillAndBen
+- BillAndBen_1
 - Bill_1
-Bill and Ben:
-- Bill and Ben
-- Bill and Ben_1
+BillAndBen:
+- BillAndBen
+- BillAndBen_1
 BlackKnight:
 - BlackKnight
 BlackRabi:
@@ -420,11 +427,11 @@ COCKATBIRD:
 - COCKATBIRD_Lv50
 COCKATRICE:
 - COCKATRICE
+CrimsonDust_AniseDrugon:
+- CrimsonDust_AniseDrugon
 CrimsonWizard:
 - CrimsonWizard
 - CrimsonWizardEvent
-Crystal:
-- Crystal
 DARKBATTOM:
 - DARKBATTOM
 - DARKBATTOM_1
@@ -604,9 +611,14 @@ EVILSWORD:
 Eagle:
 - Eagle
 - Eagle_1
-Earl of evil eye:
-- Earl of evil eye
+EarlOfEvilEye:
+- EarlOfEvilEye
+EmpressBee:
+- EmpressBee
 Eye:
+- EarlOfEvilEye
+- EarlOfEvilEye_BLOODYWOLF
+- EarlOfEvilEye_CARMILL
 - Eye
 - Eye_1
 - Eye_2
@@ -664,17 +676,17 @@ FROSTDRAGON:
 - FROSTDRAGON_Lv59
 - FROSTDRAGON_Lv60
 - FROSTDRAGON_Lv64
-Fallen saint:
-- Fallen saint
-Feegu Mund:
-- Feegu Mund
-- Feegu Mund_1
-- Feegu Mund_2
-- Feegu Mund_3
-- Feegu Mund_4
-- Feegu Mund_5
-- Feegu Mund_6
-- Feegu Mund_7
+FallenSaint:
+- FallenSaint
+FeeguMund:
+- FeeguMund
+- FeeguMund_1
+- FeeguMund_2
+- FeeguMund_3
+- FeeguMund_4
+- FeeguMund_5
+- FeeguMund_6
+- FeeguMund_7
 Flower:
 - Flower
 - Flower_1
@@ -919,18 +931,15 @@ Genoa:
 - Genoa
 - Genoa_1
 - Genoa_2
-Gigaburn_Gimmick:
-- Gigaburn_Gimmick01
-- Gigaburn_Gimmick02
-- Gigaburn_Gimmick03
+Gigaburn_Gimmick: []
 Gorva:
 - Gorva
 - Gorva_1
 GreadDeamon:
 - GreadDeamon
-Guilder Vine:
-- Guilder Vine
-- Guilder Vine_1
+GuilderVine:
+- GuilderVine
+- GuilderVine_1
 HARPY:
 - HARPY
 - HARPY_1
@@ -1034,16 +1043,14 @@ Head:
 - Head_7
 - Head_8
 - Head_9
-HellSouthernCross_Gimick:
-- HellSouthernCross_Gimick01
-- HellSouthernCross_Gimick02
+HellSouthernCross_Gimick: []
 HighWizard:
 - HighWizard
 HugeDragon:
 - HugeDragon
-Jewel Eater:
-- Jewel Eater
-- Jewel EaterR
+JewelEater:
+- JewelEater
+- JewelEater_1
 JewelryBeast:
 - JewelryBeast
 KAISERMIMIC:
@@ -1171,24 +1178,38 @@ LITTLEDEVIL:
 - LITTLEDEVIL_Lv46
 - LITTLEDEVIL_Lv48
 - LITTLEDEVIL_Lv50
-Land amber:
-- Land amber
-- Land amber_1
-- Land amber_2
-- Land amber_3
-- Land amber_4
-- Land amber_5
-- Land amber_6
-- Land amber_7
-Light Geizer:
-- Light Geizer
-- Light Geizer_1
-- Light Geizer_2
-- Light Geizer_3
-- Light Geizer_4
-- Light Geizer_5
-- Light Geizer_6
-- Light Geizer_7
+LandAmber:
+- LandAmber
+- LandAmberArmL
+- LandAmberArmL_1
+- LandAmberArmL_2
+- LandAmberArmL_3
+- LandAmberArmL_4
+- LandAmberArmL_5
+- LandAmberArmL_6
+- LandAmberArmR
+- LandAmberArmR_1
+- LandAmberArmR_2
+- LandAmberArmR_3
+- LandAmberArmR_4
+- LandAmberArmR_5
+- LandAmberArmR_6
+- LandAmber_1
+- LandAmber_2
+- LandAmber_3
+- LandAmber_4
+- LandAmber_5
+- LandAmber_6
+- LandAmber_7
+LightGeizer:
+- LightGeizer
+- LightGeizer_1
+- LightGeizer_2
+- LightGeizer_3
+- LightGeizer_4
+- LightGeizer_5
+- LightGeizer_6
+- LightGeizer_7
 MACHINEGOLEM:
 - MACHINEGOLEM
 - MACHINEGOLEM_1
@@ -1274,35 +1295,35 @@ MEGACRAWLER:
 MachineGolem:
 - MachineGolemR
 - MachineGolemS
-ManaStone Black:
-- ManaStone Black
-ManaStone Earth:
-- ManaStone Earth
-ManaStone Fire:
-- ManaStone Fire
-ManaStone Water:
-- ManaStone Water
-ManaStone Wind:
-- ManaStone Wind
+ManaStoneBlack:
+- ManaStoneBlack
+ManaStoneEarth:
+- ManaStoneEarth
+ManaStoneFire:
+- ManaStoneFire
+ManaStoneWater:
+- ManaStoneWater
+ManaStoneWind:
+- ManaStoneWind
 MiniBlackRabi:
 - MiniBlackRabi
 Mispolm:
 - Mispolm
-- Mispolm Ivy
+- MispolmIvy
+- MispolmIvy_1
+- MispolmIvy_2
+- MispolmIvy_3
+- MispolmIvy_4
+- MispolmIvy_5
+- MispolmIvy_6
+- MispolmIvy_7
 - Mispolm_1
-- Mispolm_10
-- Mispolm_11
-- Mispolm_12
-- Mispolm_13
-- Mispolm_14
 - Mispolm_2
 - Mispolm_3
 - Mispolm_4
 - Mispolm_5
 - Mispolm_6
 - Mispolm_7
-- Mispolm_8
-- Mispolm_9
 NECROMANCER:
 - NECROMANCER
 - NECROMANCER_1
@@ -1728,10 +1749,10 @@ RASTERBUG:
 Roki:
 - Roki
 RouletteDeath:
-- RouletteDeath_Actor01
-- RouletteDeath_Actor02
-- RouletteDeath_Actor03
-- RouletteDeath_Actor04
+- RouletteDeath_ManEatingDeath
+- RouletteDeath_ManEatingDeath_1
+- RouletteDeath_ManEatingDeath_2
+- RouletteDeath_ManEatingDeath_3
 SAHAGIN:
 - SAHAGIN
 - SAHAGIN_Lv1
@@ -2042,8 +2063,8 @@ SWORDNIGHT:
 - SWORDNIGHT_Lv64
 Sablehor:
 - Sablehor
-- Sablehor BlueMan
-- Sablehor PurpleMan
+- SablehorBlueMan
+- SablehorPurpleMan
 Shadow:
 - Shadow
 - ShadowDummy1
@@ -2175,15 +2196,15 @@ ZOMBIE:
 - ZOMBIE_Lv67
 - ZOMBIE_Lv8
 - ZOMBIE_Summon
-Zan Bie:
-- Zan Bie
-- Zan Bie_1
-- Zan Bie_2
-- Zan Bie_3
-- Zan Bie_4
-- Zan Bie_5
-- Zan Bie_6
-- Zan Bie_7
+ZanBie:
+- ZanBie
+- ZanBie_1
+- ZanBie_2
+- ZanBie_3
+- ZanBie_4
+- ZanBie_5
+- ZanBie_6
+- ZanBie_7
 Zhenker:
 - Zhenker
 - Zhenker_1

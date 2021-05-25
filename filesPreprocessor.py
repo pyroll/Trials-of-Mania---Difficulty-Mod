@@ -10,20 +10,22 @@ def preprocessFiles():
 
     # Walk through each directory in rootDirdict; get full path of file to use
     for root, dirs, files in os.walk(rootdir):
-        for file in files:            
-            
+        for file in files:
+
             # This will concatenate the 'head' and 'tail' to form the full file path
             fullPath = os.path.join(root, file)
+
+            #replacementString = CV + "_1"
 
             outPath = fullPath.replace('Game Files', CV)
 
             filesToEditDict[file]["fullPath"] = fullPath
-            filesToEditDict[file]["outPath"] = outPath        
+            filesToEditDict[file]["outPath"] = outPath
 
 
 filesToEditDict = defaultdict(dict)
 
-preprocessFiles()  
+preprocessFiles()
 
 filesToEditDict = dict(filesToEditDict)
 

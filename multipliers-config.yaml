@@ -3,19 +3,19 @@
 # (common enemies, bosses, boss adds, boss parts)
 
 general:
-  hp: 2   
-  atk: 1.5    
-  def: 1   
-  luck: 1.2  
+  hp: 2
+  atk: 1.5
+  def: 1
+  luck: 1.2
   defMag: 1.2
   offMag: 1.2
-  
+
   # exp gained from enemies and stats for adjusting skill points (the blue crystals)
   # gained
   exp: 0.8
   dropSpp: 1
-  KnockOutDropSpp: 0.8
-  LAttackDropSpp: 0.8
+  KnockOutDropSpp: 1
+  LAttackDropSpp: 1
   ChargeAttackDropSpp: 1
 
   # Lucre amount dropped; item drop chances
@@ -23,52 +23,41 @@ general:
   itemDrop1: 1
   itemDrop2: 1
   itemDrop3: 1
-  
-  # THESE ARE EXPERIMENTAL AND HAVEN'T BEEN TESTED
-  # My guess is that they deal with how easy it is to stun bosses
-  # Leave at 1 unless you want to test their effects for yourself :)
-  downDurable: 1
-  guardDurable: 1
 
+  # Setting to 100 means you can't knock birds out the sky or stun enemies with light heavy attack.
+  downDurable: 1
+  # Setting 100 means you can't break those blue energy shields some enemies start with [Armornight Gobbo etc].
+  guardDurable: 1
 
 # ----------- TYPE SPECIFIC ----------- #
 # Any UNIQUE changes you would like to apply to a particular type of
 # enemy can be done here. See README.txt for examples.
-
-common:
-  
-
-boss:
-  
-  
-
 # NOTE: 'shinju' and 'parts' seem to essentially edit the same
 # type of thing: boss limbs and add enemies. After digging through
 # the files, the only difference between them appears to be
 # that 'shinju' deals specifically with the benevodons, and 'parts'
 # with everything else. I HIGHLY RECOMMEND TO SIMPLY COPY PASTE
 # THE SAME VALUES FOR SHINJU AND PARTS for the time being until
-# I implement a better way to handle them. 
+# I implement a better way to handle them.
+
+common:
+
+boss:
+
 shinju:
-  
-  
 
 parts:
-  
-  
 
 # ----------- SINGLE ENEMY SPECIFIC ----------- #
 # Any UNIQUE changes you would like to apply to one single enemy
 # can be done here. See README.txt for examples.
 specific:
-
-
   # ----- PATCHES ----- #
-  # Leave these be unless you want to encounter potential problem enemies  
-  
-  # This fixes the orbs in the ArchDemon boss fight being potentially unkillable
-  # Feel free to increase the multipliers but keep in mind they seem to
+  # Leave these be unless you want to encounter potential problem enemies
+  # Feel free to increase the multipliers below but keep in mind they seem to
   # be very difficult to defeat when buffed
+
+  # This fixes the orbs in the ArchDemon boss fight being potentially unkillable
   HellSouthernCross_Gimick:
     hp: 1
     def: 1
@@ -76,7 +65,38 @@ specific:
   Gigaburn_Gimmick:
     hp: 1
     def: 1
-  
+
   SpiralMoon_Gimmick01:
+    hp: 0.8
+    def: 1
+
+  # Fix for the 'Southern Slice' orbs in the Dark Lich boss fight
+  Crystal:
+    hp: 1
+    def: 1
+
+  # Fix for Manastones in the Anise boss fight
+  ManaStoneBlack:
+    hp: 1
+    def: 1
+
+  ManaStoneEarth:
+    hp: 1
+    def: 1
+
+  ManaStoneFire:
+    hp: 1
+    def: 1
+
+  ManaStoneWater:
+    hp: 1
+    def: 1
+
+  ManaStoneWind:
+    hp: 1
+    def: 1
+
+  # Fix for the summoned Ghoul gimmicks in the Heath boss fight
+  GHOUL_15:
     hp: 1
     def: 1

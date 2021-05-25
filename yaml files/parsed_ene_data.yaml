@@ -266,11 +266,15 @@ Altar_C:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb13_Parts\01_eb13_01_PartsStatusTable.uexp
   offsetLoc: 4848
   type_id: parts
+Ancient_BlackRabi:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
+  offsetLoc: 50484
+  type_id: boss
 Anise:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 71596
   type_id: boss
-Anise Avatar:
+AniseAvatar:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 84588
   type_id: boss
@@ -282,17 +286,17 @@ ArchDemon:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 47236
   type_id: boss
-ArchDemon ArmL:
+ArchDemonArmL:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 94332
   type_id: boss
-ArchDemon ArmR:
+ArchDemonArmR:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 95956
   type_id: boss
 ArmL:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\01_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 1690
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\01_eb12_01_PartsStatusTable.uexp
+  offsetLoc: 3269
   type_id: parts
 ArmLB:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb01_01_PartsStatusTable.uexp
@@ -307,87 +311,59 @@ ArmLB_2:
   offsetLoc: 3269
   type_id: parts
 ArmL_1:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\01_eb12_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmL_10:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\06_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 1690
-  type_id: parts
-ArmL_11:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\06_eb12_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmL_12:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\07_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 1690
-  type_id: parts
-ArmL_13:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\07_eb12_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmL_14:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb03_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmL_15:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb03_11_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmL_16:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb10_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmL_17:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb10_11_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmL_18:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb11_01_PartsStatusTable.uexp
-  offsetLoc: 1690
-  type_id: parts
-ArmL_19:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb12_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmL_2:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\02_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 1690
-  type_id: parts
-ArmL_20:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb25_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmL_21:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb27_01_PartsStatusTable.uexp
-  offsetLoc: 1690
-  type_id: parts
-ArmL_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\02_eb12_01_PartsStatusTable.uexp
   offsetLoc: 3269
   type_id: parts
-ArmL_4:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\03_eb11_01_PartsStatusTable.uexp
+ArmL_10:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb10_11_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+ArmL_11:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb11_01_PartsStatusTable.uexp
   offsetLoc: 1690
   type_id: parts
-ArmL_5:
+ArmL_12:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb12_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+ArmL_13:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb25_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+ArmL_14:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb27_01_PartsStatusTable.uexp
+  offsetLoc: 1690
+  type_id: parts
+ArmL_2:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\03_eb12_01_PartsStatusTable.uexp
   offsetLoc: 3269
   type_id: parts
-ArmL_6:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\04_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 1690
-  type_id: parts
-ArmL_7:
+ArmL_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\04_eb12_01_PartsStatusTable.uexp
   offsetLoc: 3269
   type_id: parts
+ArmL_4:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\05_eb12_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+ArmL_5:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\06_eb12_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+ArmL_6:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\07_eb12_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+ArmL_7:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb03_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
 ArmL_8:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\05_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 1690
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb03_11_PartsStatusTable.uexp
+  offsetLoc: 3269
   type_id: parts
 ArmL_9:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\05_eb12_01_PartsStatusTable.uexp
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb10_01_PartsStatusTable.uexp
   offsetLoc: 3269
   type_id: parts
 ArmL_Core01:
@@ -455,8 +431,8 @@ ArmL_Core02_7:
   offsetLoc: 6427
   type_id: parts
 ArmR:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\01_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 3269
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\01_eb12_01_PartsStatusTable.uexp
+  offsetLoc: 4848
   type_id: parts
 ArmRB:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb01_01_PartsStatusTable.uexp
@@ -471,88 +447,60 @@ ArmRB_2:
   offsetLoc: 4848
   type_id: parts
 ArmR_1:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\01_eb12_01_PartsStatusTable.uexp
-  offsetLoc: 4848
-  type_id: parts
-ArmR_10:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\06_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmR_11:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\06_eb12_01_PartsStatusTable.uexp
-  offsetLoc: 4848
-  type_id: parts
-ArmR_12:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\07_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmR_13:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\07_eb12_01_PartsStatusTable.uexp
-  offsetLoc: 4848
-  type_id: parts
-ArmR_14:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb03_01_PartsStatusTable.uexp
-  offsetLoc: 4848
-  type_id: parts
-ArmR_15:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb03_11_PartsStatusTable.uexp
-  offsetLoc: 4848
-  type_id: parts
-ArmR_16:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb10_01_PartsStatusTable.uexp
-  offsetLoc: 6427
-  type_id: parts
-ArmR_17:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb10_11_PartsStatusTable.uexp
-  offsetLoc: 6427
-  type_id: parts
-ArmR_18:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb11_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmR_19:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb12_01_PartsStatusTable.uexp
-  offsetLoc: 4848
-  type_id: parts
-ArmR_2:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\02_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmR_20:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb25_01_PartsStatusTable.uexp
-  offsetLoc: 4848
-  type_id: parts
-ArmR_21:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb27_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmR_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\02_eb12_01_PartsStatusTable.uexp
   offsetLoc: 4848
   type_id: parts
-ArmR_4:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\03_eb11_01_PartsStatusTable.uexp
+ArmR_10:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb10_11_PartsStatusTable.uexp
+  offsetLoc: 6427
+  type_id: parts
+ArmR_11:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb11_01_PartsStatusTable.uexp
   offsetLoc: 3269
   type_id: parts
-ArmR_5:
+ArmR_12:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb12_01_PartsStatusTable.uexp
+  offsetLoc: 4848
+  type_id: parts
+ArmR_13:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb25_01_PartsStatusTable.uexp
+  offsetLoc: 4848
+  type_id: parts
+ArmR_14:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb27_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+ArmR_2:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\03_eb12_01_PartsStatusTable.uexp
   offsetLoc: 4848
   type_id: parts
-ArmR_6:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\04_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmR_7:
+ArmR_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\04_eb12_01_PartsStatusTable.uexp
   offsetLoc: 4848
   type_id: parts
-ArmR_8:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\05_eb11_01_PartsStatusTable.uexp
-  offsetLoc: 3269
-  type_id: parts
-ArmR_9:
+ArmR_4:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\05_eb12_01_PartsStatusTable.uexp
   offsetLoc: 4848
+  type_id: parts
+ArmR_5:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\06_eb12_01_PartsStatusTable.uexp
+  offsetLoc: 4848
+  type_id: parts
+ArmR_6:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\07_eb12_01_PartsStatusTable.uexp
+  offsetLoc: 4848
+  type_id: parts
+ArmR_7:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb03_01_PartsStatusTable.uexp
+  offsetLoc: 4848
+  type_id: parts
+ArmR_8:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb03_11_PartsStatusTable.uexp
+  offsetLoc: 4848
+  type_id: parts
+ArmR_9:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb10_01_PartsStatusTable.uexp
+  offsetLoc: 6427
   type_id: parts
 ArmR_Core01:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\01_eb11_01_PartsStatusTable.uexp
@@ -962,10 +910,6 @@ BLOODYWOLF_11:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\EnemyStatusTable.uexp
   offsetLoc: 135905
   type_id: common
-BLOODYWOLF_12:
-  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb23_01\Data\EnemyStatusTable_eb23_en34_04.uexp
-  offsetLoc: 111
-  type_id: parts
 BLOODYWOLF_2:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyCustomStatusTable.uexp
   offsetLoc: 758031
@@ -1130,13 +1074,13 @@ BOUNDWOLF_Lv6:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyStatusSt01_2.uexp
   offsetLoc: 1690
   type_id: common
-Beast Ruger:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
-  offsetLoc: 16380
-  type_id: boss
 BeastKing:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 91084
+  type_id: boss
+BeastRuger:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
+  offsetLoc: 16380
   type_id: boss
 Ben:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
@@ -1150,11 +1094,11 @@ Bill:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 8260
   type_id: boss
-Bill and Ben:
+BillAndBen:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 11508
   type_id: boss
-Bill and Ben_1:
+BillAndBen_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 58604
   type_id: boss
@@ -1162,6 +1106,10 @@ Bill_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 55356
   type_id: boss
+BlackAngela:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en22_04\EnemyStatusTable_en22_04.uexp
+  offsetLoc: 111
+  type_id: common
 BlackKnight:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 32620
@@ -1438,10 +1386,6 @@ Bruiser_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\EnemyStatusTable.uexp
   offsetLoc: 165906
   type_id: common
-CARMILL:
-  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb23_01\Data\EnemyStatusTable_eb23_en37_02.uexp
-  offsetLoc: 111
-  type_id: parts
 CARMILLA:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyCustomStatusTable.uexp
   offsetLoc: 827507
@@ -1722,6 +1666,10 @@ COCKATRICE_SUMMON_Lv64:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyStatusSt67_A.uexp
   offsetLoc: 11164
   type_id: common
+CrimsonDust_AniseDrugon:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
+  offsetLoc: 86212
+  type_id: boss
 CrimsonWizard:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 34244
@@ -1729,10 +1677,6 @@ CrimsonWizard:
 CrimsonWizardEvent:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 35868
-  type_id: boss
-Crystal:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
-  offsetLoc: 92708
   type_id: boss
 DARKBATTOM:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyCustomStatusTable.uexp
@@ -2390,10 +2334,22 @@ Eagle_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\EnemyStatusTable.uexp
   offsetLoc: 164327
   type_id: common
-Earl of evil eye:
+EarlOfEvilEye:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 40740
   type_id: boss
+EarlOfEvilEye_BLOODYWOLF:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb23_01\Data\EnemyStatusTable_eb23_en34_04.uexp
+  offsetLoc: 111
+  type_id: parts
+EarlOfEvilEye_CARMILL:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb23_01\Data\EnemyStatusTable_eb23_en37_02.uexp
+  offsetLoc: 111
+  type_id: parts
+EmpressBee:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\EnemyStatusTable_en11_04.uexp
+  offsetLoc: 111
+  type_id: common
 Eye:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb17_Parts\01_eb17_01_PartsStatusTable.uexp
   offsetLoc: 111
@@ -2614,39 +2570,39 @@ FROSTDRAGON_Lv64:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyStatusSt67_B.uexp
   offsetLoc: 12743
   type_id: common
-Fallen saint:
+FallenSaint:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 39116
   type_id: boss
-Feegu Mund:
+FeeguMund:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 21252
   type_id: boss
-Feegu Mund_1:
+FeeguMund_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_CustomStatusTable.uexp
   offsetLoc: 140
   type_id: shinju
-Feegu Mund_2:
+FeeguMund_2:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_CustomStatusTable.uexp
   offsetLoc: 1764
   type_id: shinju
-Feegu Mund_3:
+FeeguMund_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_CustomStatusTable.uexp
   offsetLoc: 3388
   type_id: shinju
-Feegu Mund_4:
+FeeguMund_4:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_CustomStatusTable.uexp
   offsetLoc: 5012
   type_id: shinju
-Feegu Mund_5:
+FeeguMund_5:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_CustomStatusTable.uexp
   offsetLoc: 6636
   type_id: shinju
-Feegu Mund_6:
+FeeguMund_6:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_CustomStatusTable.uexp
   offsetLoc: 8260
   type_id: shinju
-Feegu Mund_7:
+FeeguMund_7:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_CustomStatusTable.uexp
   offsetLoc: 9884
   type_id: shinju
@@ -3550,15 +3506,15 @@ Genoa_2:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 100828
   type_id: boss
-Gigaburn_Gimmick01:
+Gigaburn_1_ArchDemon:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 9585
   type_id: parts
-Gigaburn_Gimmick02:
+Gigaburn_2_ArchDemon:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 11164
   type_id: parts
-Gigaburn_Gimmick03:
+Gigaburn_3_ArchDemon:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 12743
   type_id: parts
@@ -3574,11 +3530,11 @@ GreadDeamon:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb26_01\Data\eb26_Summon_EnemyStatusTable.uexp
   offsetLoc: 1690
   type_id: parts
-Guilder Vine:
+GuilderVine:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 18004
   type_id: boss
-Guilder Vine_1:
+GuilderVine_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 69972
   type_id: boss
@@ -3974,14 +3930,18 @@ Head_9:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\04_eb12_01_PartsStatusTable.uexp
   offsetLoc: 111
   type_id: parts
-HellSouthernCross_Gimick01:
+HellSouthernCross_1_ArchDemon:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 6427
   type_id: parts
-HellSouthernCross_Gimick02:
+HellSouthernCross_2_ArchDemon:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb27_01_PartsStatusTable.uexp
   offsetLoc: 8006
   type_id: parts
+HellSouthernCross_DarkRich:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
+  offsetLoc: 92708
+  type_id: boss
 HighWizard:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb26_01\Data\eb26_Summon_EnemyStatusTable.uexp
   offsetLoc: 111
@@ -3990,13 +3950,13 @@ HugeDragon:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 43988
   type_id: boss
-Jewel Eater:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
-  offsetLoc: 65100
-  type_id: boss
-Jewel EaterR:
+JewelEater:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 3388
+  type_id: boss
+JewelEater_1:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
+  offsetLoc: 65100
   type_id: boss
 JewelryBeast:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
@@ -4474,67 +4434,123 @@ LITTLEDEVIL_SUMMON_Lv65:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyStatusSt67_C.uexp
   offsetLoc: 17480
   type_id: common
-Land amber:
+LandAmber:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 19628
   type_id: boss
-Land amber_1:
+LandAmberArmL:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\01_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 1690
+  type_id: parts
+LandAmberArmL_1:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\02_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 1690
+  type_id: parts
+LandAmberArmL_2:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\03_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 1690
+  type_id: parts
+LandAmberArmL_3:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\04_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 1690
+  type_id: parts
+LandAmberArmL_4:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\05_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 1690
+  type_id: parts
+LandAmberArmL_5:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\06_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 1690
+  type_id: parts
+LandAmberArmL_6:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\07_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 1690
+  type_id: parts
+LandAmberArmR:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\01_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+LandAmberArmR_1:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\02_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+LandAmberArmR_2:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\03_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+LandAmberArmR_3:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\04_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+LandAmberArmR_4:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\05_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+LandAmberArmR_5:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\06_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+LandAmberArmR_6:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\07_eb11_01_PartsStatusTable.uexp
+  offsetLoc: 3269
+  type_id: parts
+LandAmber_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_CustomStatusTable.uexp
   offsetLoc: 140
   type_id: shinju
-Land amber_2:
+LandAmber_2:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_CustomStatusTable.uexp
   offsetLoc: 1764
   type_id: shinju
-Land amber_3:
+LandAmber_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_CustomStatusTable.uexp
   offsetLoc: 3388
   type_id: shinju
-Land amber_4:
+LandAmber_4:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_CustomStatusTable.uexp
   offsetLoc: 5012
   type_id: shinju
-Land amber_5:
+LandAmber_5:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_CustomStatusTable.uexp
   offsetLoc: 6636
   type_id: shinju
-Land amber_6:
+LandAmber_6:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_CustomStatusTable.uexp
   offsetLoc: 8260
   type_id: shinju
-Land amber_7:
+LandAmber_7:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_CustomStatusTable.uexp
   offsetLoc: 9884
   type_id: shinju
-Light Geizer:
+LightGeizer:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 29372
   type_id: boss
-Light Geizer_1:
+LightGeizer_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb17_CustomStatusTable.uexp
   offsetLoc: 140
   type_id: shinju
-Light Geizer_2:
+LightGeizer_2:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb17_CustomStatusTable.uexp
   offsetLoc: 1764
   type_id: shinju
-Light Geizer_3:
+LightGeizer_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb17_CustomStatusTable.uexp
   offsetLoc: 3388
   type_id: shinju
-Light Geizer_4:
+LightGeizer_4:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb17_CustomStatusTable.uexp
   offsetLoc: 5012
   type_id: shinju
-Light Geizer_5:
+LightGeizer_5:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb17_CustomStatusTable.uexp
   offsetLoc: 6636
   type_id: shinju
-Light Geizer_6:
+LightGeizer_6:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb17_CustomStatusTable.uexp
   offsetLoc: 8260
   type_id: shinju
-Light Geizer_7:
+LightGeizer_7:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb17_CustomStatusTable.uexp
   offsetLoc: 9884
   type_id: shinju
@@ -4850,101 +4866,97 @@ MachineGolemS:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 14756
   type_id: boss
-Man - eating death:
+ManEatingDeath:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 37492
   type_id: boss
-'Man - eating death : Avatar':
+ManEatingDeathAvatar:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 63476
   type_id: boss
-ManaStone Black:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
-  offsetLoc: 86212
-  type_id: boss
-ManaStone Earth:
+ManaStoneEarth:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 78092
   type_id: boss
-ManaStone Fire:
+ManaStoneFire:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 81340
   type_id: boss
-ManaStone Water:
+ManaStoneWater:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 79716
   type_id: boss
-ManaStone Wind:
+ManaStoneWind:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 82964
   type_id: boss
-MiniBlackRabi:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
-  offsetLoc: 50484
-  type_id: boss
+MimicQueen:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en40_03\EnemyStatusTable_en40_03.uexp
+  offsetLoc: 111
+  type_id: common
 Mispolm:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 26124
   type_id: boss
-Mispolm Ivy:
+MispolmIvy:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 87836
   type_id: boss
-Mispolm_1:
+MispolmIvy_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
   offsetLoc: 140
   type_id: shinju
-Mispolm_10:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
+MispolmIvy_2:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
+  offsetLoc: 1764
+  type_id: shinju
+MispolmIvy_3:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
   offsetLoc: 3388
   type_id: shinju
-Mispolm_11:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
+MispolmIvy_4:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
   offsetLoc: 5012
   type_id: shinju
-Mispolm_12:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
+MispolmIvy_5:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
   offsetLoc: 6636
   type_id: shinju
-Mispolm_13:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
+MispolmIvy_6:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
   offsetLoc: 8260
   type_id: shinju
-Mispolm_14:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
+MispolmIvy_7:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
   offsetLoc: 9884
   type_id: shinju
+Mispolm_1:
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
+  offsetLoc: 140
+  type_id: shinju
 Mispolm_2:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
   offsetLoc: 1764
   type_id: shinju
 Mispolm_3:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
   offsetLoc: 3388
   type_id: shinju
 Mispolm_4:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
   offsetLoc: 5012
   type_id: shinju
 Mispolm_5:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
   offsetLoc: 6636
   type_id: shinju
 Mispolm_6:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
   offsetLoc: 8260
   type_id: shinju
 Mispolm_7:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_02_CustomStatusTable.uexp
+  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
   offsetLoc: 9884
-  type_id: shinju
-Mispolm_8:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
-  offsetLoc: 140
-  type_id: shinju
-Mispolm_9:
-  filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb15_CustomStatusTable.uexp
-  offsetLoc: 1764
   type_id: shinju
 NECROMANCER:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyCustomStatusTable.uexp
@@ -6530,23 +6542,27 @@ RASTERBUG_Lv64:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyStatusSt67_A.uexp
   offsetLoc: 1690
   type_id: common
+Revenant:
+  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\EnemyStatusTable_en08_03.uexp
+  offsetLoc: 111
+  type_id: common
 Roki:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 89460
   type_id: boss
-RouletteDeath_Actor01:
+RouletteDeath_ManEatingDeath:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb21_01_PartsStatusTable.uexp
   offsetLoc: 1690
   type_id: parts
-RouletteDeath_Actor02:
+RouletteDeath_ManEatingDeath_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb21_01_PartsStatusTable.uexp
   offsetLoc: 3269
   type_id: parts
-RouletteDeath_Actor03:
+RouletteDeath_ManEatingDeath_2:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb21_01_PartsStatusTable.uexp
   offsetLoc: 4848
   type_id: parts
-RouletteDeath_Actor04:
+RouletteDeath_ManEatingDeath_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\eb21_01_PartsStatusTable.uexp
   offsetLoc: 6427
   type_id: parts
@@ -7558,11 +7574,11 @@ Sablehor:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 30996
   type_id: boss
-Sablehor BlueMan:
+SablehorBlueMan:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 74844
   type_id: boss
-Sablehor PurpleMan:
+SablehorPurpleMan:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 76468
   type_id: boss
@@ -7994,35 +8010,35 @@ ZOMBIE_Summon:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\Data\EnemyStatusSt67_E.uexp
   offsetLoc: 19059
   type_id: common
-Zan Bie:
+ZanBie:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\BossStatusTable.uexp
   offsetLoc: 22876
   type_id: boss
-Zan Bie_1:
+ZanBie_1:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb13_CustomStatusTable.uexp
   offsetLoc: 140
   type_id: shinju
-Zan Bie_2:
+ZanBie_2:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb13_CustomStatusTable.uexp
   offsetLoc: 1764
   type_id: shinju
-Zan Bie_3:
+ZanBie_3:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb13_CustomStatusTable.uexp
   offsetLoc: 3388
   type_id: shinju
-Zan Bie_4:
+ZanBie_4:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb13_CustomStatusTable.uexp
   offsetLoc: 5012
   type_id: shinju
-Zan Bie_5:
+ZanBie_5:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb13_CustomStatusTable.uexp
   offsetLoc: 6636
   type_id: shinju
-Zan Bie_6:
+ZanBie_6:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb13_CustomStatusTable.uexp
   offsetLoc: 8260
   type_id: shinju
-Zan Bie_7:
+ZanBie_7:
   filePath: Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb13_CustomStatusTable.uexp
   offsetLoc: 9884
   type_id: shinju
@@ -8054,10 +8070,6 @@ two:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\EnemyStatusTable_en11_03.uexp
   offsetLoc: 111
   type_id: common
-エンプレスビー_3:
-  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\EnemyStatusTable_en11_04.uexp
-  offsetLoc: 111
-  type_id: common
 グール:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\EnemyStatusTable_en08_01.uexp
   offsetLoc: 111
@@ -8074,19 +8086,7 @@ two:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\EnemyStatusTable_en08_03.uexp
   offsetLoc: 1690
   type_id: common
-ブラックアンジェラ:
-  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en22_04\EnemyStatusTable_en22_04.uexp
-  offsetLoc: 111
-  type_id: common
 ブルーザー:
   filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en99_01\EnemyStatusTable_en99_02.uexp
-  offsetLoc: 111
-  type_id: common
-ミミッククィーン:
-  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en40_03\EnemyStatusTable_en40_03.uexp
-  offsetLoc: 111
-  type_id: common
-レグナント:
-  filePath: Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\EnemyStatusTable_en08_03.uexp
   offsetLoc: 111
   type_id: common

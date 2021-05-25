@@ -1,6 +1,6 @@
-base: Custom_TofMania - 0.5.2_P\Trials of Mana\Content\Game00
+base: Custom_TofMania - 0.5.4_1_P\Trials of Mana\Content\Game00
 
-tails: 
+tails:
   - BP\Enemy\Zako\Data
   - Data\Csv\CharaData
   - Data\Csv\CharaData\ShinjuStatusTableList

@@ -1405,6 +1405,27 @@ Altar_C:
   luck: 80
   offMag: 149
   type_id: parts
+Ancient_BlackRabi:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 669
+  def: 345
+  defMag: 345
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 30
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
+  luck: 188
+  offMag: 501
+  type_id: boss
 Anise:
   ChargeAttackDropSpp: 3
   DropLuc: 0
@@ -1426,7 +1447,7 @@ Anise:
   luck: 173
   offMag: 425
   type_id: boss
-Anise Avatar:
+AniseAvatar:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -1489,7 +1510,7 @@ ArchDemon:
   luck: 134
   offMag: 364
   type_id: boss
-ArchDemon ArmL:
+ArchDemonArmL:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -1510,7 +1531,7 @@ ArchDemon ArmL:
   luck: 134
   offMag: 325
   type_id: boss
-ArchDemon ArmR:
+ArchDemonArmR:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -1538,18 +1559,18 @@ ArmL:
   LAttackDropSpp: 1
   actionEnable: 15
   atk: 0
-  def: 89
+  def: 133
   defMag: 133
   downDurable: 100.0
-  dropSpp: 30
+  dropSpp: 0
   exp: 0
   guardDurable: 0.0
-  hp: 4116
+  hp: 0
   itemDrop1: 0
   itemDrop2: 0
   itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_01_eb11_01_PartsStatusTable.json
-  luck: 80
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_01_eb12_01_PartsStatusTable.json
+  luck: 83
   offMag: 0
   type_id: parts
 ArmLB:
@@ -1622,8 +1643,8 @@ ArmL_1:
   LAttackDropSpp: 1
   actionEnable: 15
   atk: 0
-  def: 133
-  defMag: 133
+  def: 152
+  defMag: 152
   downDurable: 100.0
   dropSpp: 0
   exp: 0
@@ -1632,158 +1653,11 @@ ArmL_1:
   itemDrop1: 0
   itemDrop2: 0
   itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_01_eb12_01_PartsStatusTable.json
-  luck: 83
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_02_eb12_01_PartsStatusTable.json
+  luck: 88
   offMag: 0
   type_id: parts
 ArmL_10:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 131
-  defMag: 197
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 7014
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_06_eb11_01_PartsStatusTable.json
-  luck: 106
-  offMag: 0
-  type_id: parts
-ArmL_11:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 190
-  defMag: 190
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_06_eb12_01_PartsStatusTable.json
-  luck: 103
-  offMag: 0
-  type_id: parts
-ArmL_12:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 136
-  defMag: 204
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 7250
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_07_eb11_01_PartsStatusTable.json
-  luck: 110
-  offMag: 0
-  type_id: parts
-ArmL_13:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 229
-  def: 189
-  defMag: 189
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_07_eb12_01_PartsStatusTable.json
-  luck: 113
-  offMag: 344
-  type_id: parts
-ArmL_14:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 42
-  defMag: 42
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb03_01_PartsStatusTable.json
-  luck: 18
-  offMag: 0
-  type_id: parts
-ArmL_15:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 272
-  defMag: 272
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb03_11_PartsStatusTable.json
-  luck: 121
-  offMag: 0
-  type_id: parts
-ArmL_16:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 570
-  defMag: 475
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb10_01_PartsStatusTable.json
-  luck: 68
-  offMag: 0
-  type_id: parts
-ArmL_17:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -1804,7 +1678,7 @@ ArmL_17:
   luck: 121
   offMag: 0
   type_id: parts
-ArmL_18:
+ArmL_11:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -1825,7 +1699,7 @@ ArmL_18:
   luck: 10
   offMag: 200
   type_id: parts
-ArmL_19:
+ArmL_12:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -1846,28 +1720,7 @@ ArmL_19:
   luck: 0
   offMag: 0
   type_id: parts
-ArmL_2:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 101
-  defMag: 152
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 5043
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_02_eb11_01_PartsStatusTable.json
-  luck: 88
-  offMag: 0
-  type_id: parts
-ArmL_20:
+ArmL_13:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -1888,7 +1741,7 @@ ArmL_20:
   luck: 127
   offMag: 0
   type_id: parts
-ArmL_21:
+ArmL_14:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -1909,49 +1762,7 @@ ArmL_21:
   luck: 134
   offMag: 0
   type_id: parts
-ArmL_3:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 152
-  defMag: 152
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_02_eb12_01_PartsStatusTable.json
-  luck: 88
-  offMag: 0
-  type_id: parts
-ArmL_4:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 111
-  defMag: 167
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 5761
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_03_eb11_01_PartsStatusTable.json
-  luck: 94
-  offMag: 0
-  type_id: parts
-ArmL_5:
+ArmL_2:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -1972,28 +1783,7 @@ ArmL_5:
   luck: 94
   offMag: 0
   type_id: parts
-ArmL_6:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 122
-  defMag: 183
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 6487
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_04_eb11_01_PartsStatusTable.json
-  luck: 99
-  offMag: 0
-  type_id: parts
-ArmL_7:
+ArmL_3:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -2014,28 +1804,7 @@ ArmL_7:
   luck: 99
   offMag: 0
   type_id: parts
-ArmL_8:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 127
-  defMag: 191
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 6724
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_05_eb11_01_PartsStatusTable.json
-  luck: 103
-  offMag: 0
-  type_id: parts
-ArmL_9:
+ArmL_4:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -2054,6 +1823,111 @@ ArmL_9:
   itemDrop3: 0
   jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_05_eb12_01_PartsStatusTable.json
   luck: 103
+  offMag: 0
+  type_id: parts
+ArmL_5:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 190
+  defMag: 190
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_06_eb12_01_PartsStatusTable.json
+  luck: 103
+  offMag: 0
+  type_id: parts
+ArmL_6:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 229
+  def: 189
+  defMag: 189
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_07_eb12_01_PartsStatusTable.json
+  luck: 113
+  offMag: 344
+  type_id: parts
+ArmL_7:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 42
+  defMag: 42
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb03_01_PartsStatusTable.json
+  luck: 18
+  offMag: 0
+  type_id: parts
+ArmL_8:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 272
+  defMag: 272
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb03_11_PartsStatusTable.json
+  luck: 121
+  offMag: 0
+  type_id: parts
+ArmL_9:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 570
+  defMag: 475
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb10_01_PartsStatusTable.json
+  luck: 68
   offMag: 0
   type_id: parts
 ArmL_Core01:
@@ -2400,17 +2274,17 @@ ArmR:
   actionEnable: 15
   atk: 0
   def: 133
-  defMag: 89
+  defMag: 133
   downDurable: 100.0
-  dropSpp: 30
+  dropSpp: 0
   exp: 0
   guardDurable: 0.0
-  hp: 4118
+  hp: 0
   itemDrop1: 0
   itemDrop2: 0
   itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_01_eb11_01_PartsStatusTable.json
-  luck: 80
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_01_eb12_01_PartsStatusTable.json
+  luck: 83
   offMag: 0
   type_id: parts
 ArmRB:
@@ -2483,8 +2357,8 @@ ArmR_1:
   LAttackDropSpp: 1
   actionEnable: 15
   atk: 0
-  def: 133
-  defMag: 133
+  def: 152
+  defMag: 152
   downDurable: 100.0
   dropSpp: 0
   exp: 0
@@ -2493,158 +2367,11 @@ ArmR_1:
   itemDrop1: 0
   itemDrop2: 0
   itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_01_eb12_01_PartsStatusTable.json
-  luck: 83
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_02_eb12_01_PartsStatusTable.json
+  luck: 88
   offMag: 0
   type_id: parts
 ArmR_10:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 197
-  defMag: 131
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 7014
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_06_eb11_01_PartsStatusTable.json
-  luck: 106
-  offMag: 0
-  type_id: parts
-ArmR_11:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 190
-  defMag: 190
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_06_eb12_01_PartsStatusTable.json
-  luck: 103
-  offMag: 0
-  type_id: parts
-ArmR_12:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 204
-  defMag: 136
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 7250
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_07_eb11_01_PartsStatusTable.json
-  luck: 110
-  offMag: 0
-  type_id: parts
-ArmR_13:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 229
-  def: 189
-  defMag: 189
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_07_eb12_01_PartsStatusTable.json
-  luck: 113
-  offMag: 344
-  type_id: parts
-ArmR_14:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 42
-  defMag: 42
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb03_01_PartsStatusTable.json
-  luck: 18
-  offMag: 0
-  type_id: parts
-ArmR_15:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 272
-  defMag: 272
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb03_11_PartsStatusTable.json
-  luck: 121
-  offMag: 0
-  type_id: parts
-ArmR_16:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 570
-  defMag: 475
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb10_01_PartsStatusTable.json
-  luck: 68
-  offMag: 0
-  type_id: parts
-ArmR_17:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -2665,7 +2392,7 @@ ArmR_17:
   luck: 121
   offMag: 0
   type_id: parts
-ArmR_18:
+ArmR_11:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -2686,7 +2413,7 @@ ArmR_18:
   luck: 10
   offMag: 200
   type_id: parts
-ArmR_19:
+ArmR_12:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -2707,28 +2434,7 @@ ArmR_19:
   luck: 0
   offMag: 0
   type_id: parts
-ArmR_2:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 152
-  defMag: 101
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 5043
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_02_eb11_01_PartsStatusTable.json
-  luck: 88
-  offMag: 0
-  type_id: parts
-ArmR_20:
+ArmR_13:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -2749,7 +2455,7 @@ ArmR_20:
   luck: 127
   offMag: 0
   type_id: parts
-ArmR_21:
+ArmR_14:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -2770,49 +2476,7 @@ ArmR_21:
   luck: 134
   offMag: 0
   type_id: parts
-ArmR_3:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 152
-  defMag: 152
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 0
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_02_eb12_01_PartsStatusTable.json
-  luck: 88
-  offMag: 0
-  type_id: parts
-ArmR_4:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 167
-  defMag: 111
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 5761
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_03_eb11_01_PartsStatusTable.json
-  luck: 94
-  offMag: 0
-  type_id: parts
-ArmR_5:
+ArmR_2:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -2833,28 +2497,7 @@ ArmR_5:
   luck: 94
   offMag: 0
   type_id: parts
-ArmR_6:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 183
-  defMag: 122
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 6487
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_04_eb11_01_PartsStatusTable.json
-  luck: 99
-  offMag: 0
-  type_id: parts
-ArmR_7:
+ArmR_3:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -2875,28 +2518,7 @@ ArmR_7:
   luck: 99
   offMag: 0
   type_id: parts
-ArmR_8:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 191
-  defMag: 127
-  downDurable: 100.0
-  dropSpp: 30
-  exp: 0
-  guardDurable: 0.0
-  hp: 6724
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_05_eb11_01_PartsStatusTable.json
-  luck: 103
-  offMag: 0
-  type_id: parts
-ArmR_9:
+ArmR_4:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -2915,6 +2537,111 @@ ArmR_9:
   itemDrop3: 0
   jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_05_eb12_01_PartsStatusTable.json
   luck: 103
+  offMag: 0
+  type_id: parts
+ArmR_5:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 190
+  defMag: 190
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_06_eb12_01_PartsStatusTable.json
+  luck: 103
+  offMag: 0
+  type_id: parts
+ArmR_6:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 229
+  def: 189
+  defMag: 189
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb12_Parts\_07_eb12_01_PartsStatusTable.json
+  luck: 113
+  offMag: 344
+  type_id: parts
+ArmR_7:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 42
+  defMag: 42
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb03_01_PartsStatusTable.json
+  luck: 18
+  offMag: 0
+  type_id: parts
+ArmR_8:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 272
+  defMag: 272
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb03_11_PartsStatusTable.json
+  luck: 121
+  offMag: 0
+  type_id: parts
+ArmR_9:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 570
+  defMag: 475
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 0
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\Parts\_eb10_01_PartsStatusTable.json
+  luck: 68
   offMag: 0
   type_id: parts
 ArmR_Core01:
@@ -5059,27 +4786,6 @@ BLOODYWOLF_11:
   luck: 8
   offMag: 10
   type_id: common
-BLOODYWOLF_12:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 10
-  LAttackDropSpp: 3
-  actionEnable: 15
-  atk: 225
-  def: 196
-  defMag: 196
-  downDurable: 196.0
-  dropSpp: 10
-  exp: 0
-  guardDurable: 0.0
-  hp: 917
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb23_01\Data\_EnemyStatusTable_eb23_en34_04.json
-  luck: 135
-  offMag: 178
-  type_id: parts
 BLOODYWOLF_2:
   ChargeAttackDropSpp: 3
   DropLuc: 160
@@ -5941,27 +5647,6 @@ BOUNDWOLF_Lv6:
   luck: 14
   offMag: 21
   type_id: common
-Beast Ruger:
-  ChargeAttackDropSpp: 8
-  DropLuc: 5570
-  KnockOutDropSpp: 30
-  LAttackDropSpp: 2
-  actionEnable: 15
-  atk: 141
-  def: 105
-  defMag: 105
-  downDurable: 640.0
-  dropSpp: 0
-  exp: 10000
-  guardDurable: 0.0
-  hp: 21840
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
-  luck: 68
-  offMag: 141
-  type_id: boss
 BeastKing:
   ChargeAttackDropSpp: 8
   DropLuc: 9000
@@ -5982,6 +5667,27 @@ BeastKing:
   jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
   luck: 134
   offMag: 243
+  type_id: boss
+BeastRuger:
+  ChargeAttackDropSpp: 8
+  DropLuc: 5570
+  KnockOutDropSpp: 30
+  LAttackDropSpp: 2
+  actionEnable: 15
+  atk: 141
+  def: 105
+  defMag: 105
+  downDurable: 640.0
+  dropSpp: 0
+  exp: 10000
+  guardDurable: 0.0
+  hp: 21840
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
+  luck: 68
+  offMag: 141
   type_id: boss
 Ben:
   ChargeAttackDropSpp: 8
@@ -6046,7 +5752,7 @@ Bill:
   luck: 44
   offMag: 67
   type_id: boss
-Bill and Ben:
+BillAndBen:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 30
@@ -6067,7 +5773,7 @@ Bill and Ben:
   luck: 44
   offMag: 67
   type_id: boss
-Bill and Ben_1:
+BillAndBen_1:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -6109,6 +5815,27 @@ Bill_1:
   luck: 57
   offMag: 128
   type_id: boss
+BlackAngela:
+  ChargeAttackDropSpp: 3
+  DropLuc: 9400
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 243
+  def: 238
+  defMag: 286
+  downDurable: 1200.0
+  dropSpp: 10
+  exp: 28000
+  guardDurable: 0.0
+  hp: 22726
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en22_04\_EnemyStatusTable_en22_04.json
+  luck: 134
+  offMag: 455
+  type_id: common
 BlackKnight:
   ChargeAttackDropSpp: 8
   DropLuc: 6930
@@ -7558,27 +7285,6 @@ Bruiser_3:
   luck: 0
   offMag: 0
   type_id: common
-CARMILL:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 10
-  LAttackDropSpp: 3
-  actionEnable: 15
-  atk: 167
-  def: 160
-  defMag: 267
-  downDurable: 64.0
-  dropSpp: 10
-  exp: 0
-  guardDurable: 0.0
-  hp: 636
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb23_01\Data\_EnemyStatusTable_eb23_en37_02.json
-  luck: 135
-  offMag: 204
-  type_id: parts
 CARMILLA:
   ChargeAttackDropSpp: 3
   DropLuc: 135
@@ -9049,6 +8755,27 @@ COCKATRICE_SUMMON_Lv64:
   luck: 153
   offMag: 419
   type_id: common
+CrimsonDust_AniseDrugon:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 60
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 257
+  defMag: 257
+  downDurable: 100.0
+  dropSpp: 0
+  exp: 0
+  guardDurable: 0.0
+  hp: 70
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
+  luck: 171
+  offMag: 0
+  type_id: boss
 CrimsonWizard:
   ChargeAttackDropSpp: 3
   DropLuc: 11550
@@ -9090,27 +8817,6 @@ CrimsonWizardEvent:
   jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
   luck: 125
   offMag: 448
-  type_id: boss
-Crystal:
-  ChargeAttackDropSpp: 8
-  DropLuc: 0
-  KnockOutDropSpp: 60
-  LAttackDropSpp: 2
-  actionEnable: 15
-  atk: 1
-  def: 1
-  defMag: 1
-  downDurable: 1.0
-  dropSpp: 0
-  exp: 300
-  guardDurable: 1.0
-  hp: 80
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
-  luck: 0
-  offMag: 0
   type_id: boss
 DARKBATTOM:
   ChargeAttackDropSpp: 3
@@ -12556,7 +12262,7 @@ Eagle_1:
   luck: 0
   offMag: 0
   type_id: common
-Earl of evil eye:
+EarlOfEvilEye:
   ChargeAttackDropSpp: 6
   DropLuc: 8640
   KnockOutDropSpp: 30
@@ -12577,6 +12283,69 @@ Earl of evil eye:
   luck: 119
   offMag: 362
   type_id: boss
+EarlOfEvilEye_BLOODYWOLF:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 225
+  def: 196
+  defMag: 196
+  downDurable: 196.0
+  dropSpp: 10
+  exp: 0
+  guardDurable: 0.0
+  hp: 917
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb23_01\Data\_EnemyStatusTable_eb23_en34_04.json
+  luck: 135
+  offMag: 178
+  type_id: parts
+EarlOfEvilEye_CARMILL:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 167
+  def: 160
+  defMag: 267
+  downDurable: 64.0
+  dropSpp: 10
+  exp: 0
+  guardDurable: 0.0
+  hp: 636
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Boss\eb23_01\Data\_EnemyStatusTable_eb23_en37_02.json
+  luck: 135
+  offMag: 204
+  type_id: parts
+EmpressBee:
+  ChargeAttackDropSpp: 3
+  DropLuc: 8600
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 364
+  def: 238
+  defMag: 238
+  downDurable: 1200.0
+  dropSpp: 0
+  exp: 33000
+  guardDurable: 0.0
+  hp: 53600
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_04.json
+  luck: 134
+  offMag: 364
+  type_id: common
 Eye:
   ChargeAttackDropSpp: 3
   DropLuc: 0
@@ -13732,7 +13501,7 @@ FROSTDRAGON_Lv64:
   luck: 122
   offMag: 465
   type_id: common
-Fallen saint:
+FallenSaint:
   ChargeAttackDropSpp: 8
   DropLuc: 10400
   KnockOutDropSpp: 30
@@ -13753,7 +13522,7 @@ Fallen saint:
   luck: 125
   offMag: 358
   type_id: boss
-Feegu Mund:
+FeeguMund:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -13774,7 +13543,7 @@ Feegu Mund:
   luck: 100
   offMag: 100
   type_id: boss
-Feegu Mund_1:
+FeeguMund_1:
   ChargeAttackDropSpp: 8
   DropLuc: 5500
   KnockOutDropSpp: 30
@@ -13795,7 +13564,7 @@ Feegu Mund_1:
   luck: 83
   offMag: 224
   type_id: shinju
-Feegu Mund_2:
+FeeguMund_2:
   ChargeAttackDropSpp: 8
   DropLuc: 5500
   KnockOutDropSpp: 30
@@ -13816,7 +13585,7 @@ Feegu Mund_2:
   luck: 88
   offMag: 270
   type_id: shinju
-Feegu Mund_3:
+FeeguMund_3:
   ChargeAttackDropSpp: 8
   DropLuc: 5500
   KnockOutDropSpp: 30
@@ -13837,7 +13606,7 @@ Feegu Mund_3:
   luck: 94
   offMag: 312
   type_id: shinju
-Feegu Mund_4:
+FeeguMund_4:
   ChargeAttackDropSpp: 8
   DropLuc: 5500
   KnockOutDropSpp: 30
@@ -13858,7 +13627,7 @@ Feegu Mund_4:
   luck: 99
   offMag: 355
   type_id: shinju
-Feegu Mund_5:
+FeeguMund_5:
   ChargeAttackDropSpp: 8
   DropLuc: 5500
   KnockOutDropSpp: 30
@@ -13879,7 +13648,7 @@ Feegu Mund_5:
   luck: 103
   offMag: 367
   type_id: shinju
-Feegu Mund_6:
+FeeguMund_6:
   ChargeAttackDropSpp: 8
   DropLuc: 5500
   KnockOutDropSpp: 30
@@ -13900,7 +13669,7 @@ Feegu Mund_6:
   luck: 106
   offMag: 380
   type_id: shinju
-Feegu Mund_7:
+FeeguMund_7:
   ChargeAttackDropSpp: 8
   DropLuc: 5500
   KnockOutDropSpp: 30
@@ -18646,7 +18415,7 @@ Genoa_2:
   luck: 123
   offMag: 443
   type_id: boss
-Gigaburn_Gimmick01:
+Gigaburn_1_ArchDemon:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -18667,7 +18436,7 @@ Gigaburn_Gimmick01:
   luck: 134
   offMag: 0
   type_id: parts
-Gigaburn_Gimmick02:
+Gigaburn_2_ArchDemon:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -18688,7 +18457,7 @@ Gigaburn_Gimmick02:
   luck: 134
   offMag: 0
   type_id: parts
-Gigaburn_Gimmick03:
+Gigaburn_3_ArchDemon:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -18772,7 +18541,7 @@ GreadDeamon:
   luck: 50
   offMag: 177
   type_id: parts
-Guilder Vine:
+GuilderVine:
   ChargeAttackDropSpp: 8
   DropLuc: 2730
   KnockOutDropSpp: 30
@@ -18793,7 +18562,7 @@ Guilder Vine:
   luck: 68
   offMag: 183
   type_id: boss
-Guilder Vine_1:
+GuilderVine_1:
   ChargeAttackDropSpp: 8
   DropLuc: 6930
   KnockOutDropSpp: 60
@@ -20872,7 +20641,7 @@ Head_9:
   luck: 99
   offMag: 0
   type_id: parts
-HellSouthernCross_Gimick01:
+HellSouthernCross_1_ArchDemon:
   ChargeAttackDropSpp: 5
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -20893,7 +20662,7 @@ HellSouthernCross_Gimick01:
   luck: 134
   offMag: 0
   type_id: parts
-HellSouthernCross_Gimick02:
+HellSouthernCross_2_ArchDemon:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -20914,6 +20683,27 @@ HellSouthernCross_Gimick02:
   luck: 134
   offMag: 0
   type_id: parts
+HellSouthernCross_DarkRich:
+  ChargeAttackDropSpp: 8
+  DropLuc: 0
+  KnockOutDropSpp: 60
+  LAttackDropSpp: 2
+  actionEnable: 15
+  atk: 1
+  def: 1
+  defMag: 1
+  downDurable: 1.0
+  dropSpp: 0
+  exp: 300
+  guardDurable: 1.0
+  hp: 80
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
+  luck: 0
+  offMag: 0
+  type_id: boss
 HighWizard:
   ChargeAttackDropSpp: 6
   DropLuc: 0
@@ -20956,28 +20746,7 @@ HugeDragon:
   luck: 127
   offMag: 364
   type_id: boss
-Jewel Eater:
-  ChargeAttackDropSpp: 8
-  DropLuc: 9240
-  KnockOutDropSpp: 60
-  LAttackDropSpp: 2
-  actionEnable: 15
-  atk: 348
-  def: 227
-  defMag: 227
-  downDurable: 200.0
-  dropSpp: 0
-  exp: 32000
-  guardDurable: 0.0
-  hp: 51016
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
-  luck: 121
-  offMag: 348
-  type_id: boss
-Jewel EaterR:
+JewelEater:
   ChargeAttackDropSpp: 8
   DropLuc: 480
   KnockOutDropSpp: 30
@@ -20997,6 +20766,27 @@ Jewel EaterR:
   jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
   luck: 18
   offMag: 42
+  type_id: boss
+JewelEater_1:
+  ChargeAttackDropSpp: 8
+  DropLuc: 9240
+  KnockOutDropSpp: 60
+  LAttackDropSpp: 2
+  actionEnable: 15
+  atk: 348
+  def: 227
+  defMag: 227
+  downDurable: 200.0
+  dropSpp: 0
+  exp: 32000
+  guardDurable: 0.0
+  hp: 51016
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
+  luck: 121
+  offMag: 348
   type_id: boss
 JewelryBeast:
   ChargeAttackDropSpp: 8
@@ -23497,7 +23287,7 @@ LITTLEDEVIL_SUMMON_Lv65:
   luck: 186
   offMag: 473
   type_id: common
-Land amber:
+LandAmber:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -23518,7 +23308,301 @@ Land amber:
   luck: 100
   offMag: 100
   type_id: boss
-Land amber_1:
+LandAmberArmL:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 89
+  defMag: 133
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 4116
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_01_eb11_01_PartsStatusTable.json
+  luck: 80
+  offMag: 0
+  type_id: parts
+LandAmberArmL_1:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 101
+  defMag: 152
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 5043
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_02_eb11_01_PartsStatusTable.json
+  luck: 88
+  offMag: 0
+  type_id: parts
+LandAmberArmL_2:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 111
+  defMag: 167
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 5761
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_03_eb11_01_PartsStatusTable.json
+  luck: 94
+  offMag: 0
+  type_id: parts
+LandAmberArmL_3:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 122
+  defMag: 183
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 6487
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_04_eb11_01_PartsStatusTable.json
+  luck: 99
+  offMag: 0
+  type_id: parts
+LandAmberArmL_4:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 127
+  defMag: 191
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 6724
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_05_eb11_01_PartsStatusTable.json
+  luck: 103
+  offMag: 0
+  type_id: parts
+LandAmberArmL_5:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 131
+  defMag: 197
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 7014
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_06_eb11_01_PartsStatusTable.json
+  luck: 106
+  offMag: 0
+  type_id: parts
+LandAmberArmL_6:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 136
+  defMag: 204
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 7250
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_07_eb11_01_PartsStatusTable.json
+  luck: 110
+  offMag: 0
+  type_id: parts
+LandAmberArmR:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 133
+  defMag: 89
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 4118
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_01_eb11_01_PartsStatusTable.json
+  luck: 80
+  offMag: 0
+  type_id: parts
+LandAmberArmR_1:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 152
+  defMag: 101
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 5043
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_02_eb11_01_PartsStatusTable.json
+  luck: 88
+  offMag: 0
+  type_id: parts
+LandAmberArmR_2:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 167
+  defMag: 111
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 5761
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_03_eb11_01_PartsStatusTable.json
+  luck: 94
+  offMag: 0
+  type_id: parts
+LandAmberArmR_3:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 183
+  defMag: 122
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 6487
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_04_eb11_01_PartsStatusTable.json
+  luck: 99
+  offMag: 0
+  type_id: parts
+LandAmberArmR_4:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 191
+  defMag: 127
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 6724
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_05_eb11_01_PartsStatusTable.json
+  luck: 103
+  offMag: 0
+  type_id: parts
+LandAmberArmR_5:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 197
+  defMag: 131
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 7014
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_06_eb11_01_PartsStatusTable.json
+  luck: 106
+  offMag: 0
+  type_id: parts
+LandAmberArmR_6:
+  ChargeAttackDropSpp: 3
+  DropLuc: 0
+  KnockOutDropSpp: 0
+  LAttackDropSpp: 1
+  actionEnable: 15
+  atk: 0
+  def: 204
+  defMag: 136
+  downDurable: 100.0
+  dropSpp: 30
+  exp: 0
+  guardDurable: 0.0
+  hp: 7250
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\eb11_Parts\_07_eb11_01_PartsStatusTable.json
+  luck: 110
+  offMag: 0
+  type_id: parts
+LandAmber_1:
   ChargeAttackDropSpp: 8
   DropLuc: 9300
   KnockOutDropSpp: 30
@@ -23539,7 +23623,7 @@ Land amber_1:
   luck: 80
   offMag: 226
   type_id: shinju
-Land amber_2:
+LandAmber_2:
   ChargeAttackDropSpp: 8
   DropLuc: 9300
   KnockOutDropSpp: 30
@@ -23560,7 +23644,7 @@ Land amber_2:
   luck: 88
   offMag: 270
   type_id: shinju
-Land amber_3:
+LandAmber_3:
   ChargeAttackDropSpp: 8
   DropLuc: 9300
   KnockOutDropSpp: 30
@@ -23581,7 +23665,7 @@ Land amber_3:
   luck: 94
   offMag: 312
   type_id: shinju
-Land amber_4:
+LandAmber_4:
   ChargeAttackDropSpp: 8
   DropLuc: 9300
   KnockOutDropSpp: 30
@@ -23602,7 +23686,7 @@ Land amber_4:
   luck: 99
   offMag: 355
   type_id: shinju
-Land amber_5:
+LandAmber_5:
   ChargeAttackDropSpp: 8
   DropLuc: 9300
   KnockOutDropSpp: 30
@@ -23623,7 +23707,7 @@ Land amber_5:
   luck: 103
   offMag: 367
   type_id: shinju
-Land amber_6:
+LandAmber_6:
   ChargeAttackDropSpp: 8
   DropLuc: 9300
   KnockOutDropSpp: 30
@@ -23644,7 +23728,7 @@ Land amber_6:
   luck: 106
   offMag: 380
   type_id: shinju
-Land amber_7:
+LandAmber_7:
   ChargeAttackDropSpp: 8
   DropLuc: 9300
   KnockOutDropSpp: 30
@@ -23665,7 +23749,7 @@ Land amber_7:
   luck: 110
   offMag: 393
   type_id: shinju
-Light Geizer:
+LightGeizer:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -23686,7 +23770,7 @@ Light Geizer:
   luck: 100
   offMag: 100
   type_id: boss
-Light Geizer_1:
+LightGeizer_1:
   ChargeAttackDropSpp: 8
   DropLuc: 3200
   KnockOutDropSpp: 30
@@ -23707,7 +23791,7 @@ Light Geizer_1:
   luck: 80
   offMag: 179
   type_id: shinju
-Light Geizer_2:
+LightGeizer_2:
   ChargeAttackDropSpp: 8
   DropLuc: 3200
   KnockOutDropSpp: 30
@@ -23728,7 +23812,7 @@ Light Geizer_2:
   luck: 88
   offMag: 216
   type_id: shinju
-Light Geizer_3:
+LightGeizer_3:
   ChargeAttackDropSpp: 8
   DropLuc: 3200
   KnockOutDropSpp: 30
@@ -23749,7 +23833,7 @@ Light Geizer_3:
   luck: 94
   offMag: 250
   type_id: shinju
-Light Geizer_4:
+LightGeizer_4:
   ChargeAttackDropSpp: 8
   DropLuc: 3200
   KnockOutDropSpp: 30
@@ -23770,7 +23854,7 @@ Light Geizer_4:
   luck: 99
   offMag: 284
   type_id: shinju
-Light Geizer_5:
+LightGeizer_5:
   ChargeAttackDropSpp: 8
   DropLuc: 3200
   KnockOutDropSpp: 30
@@ -23791,7 +23875,7 @@ Light Geizer_5:
   luck: 103
   offMag: 294
   type_id: shinju
-Light Geizer_6:
+LightGeizer_6:
   ChargeAttackDropSpp: 8
   DropLuc: 3200
   KnockOutDropSpp: 30
@@ -23812,7 +23896,7 @@ Light Geizer_6:
   luck: 106
   offMag: 304
   type_id: shinju
-Light Geizer_7:
+LightGeizer_7:
   ChargeAttackDropSpp: 8
   DropLuc: 3200
   KnockOutDropSpp: 30
@@ -25471,7 +25555,7 @@ MachineGolemS:
   luck: 30
   offMag: 117
   type_id: boss
-Man - eating death:
+ManEatingDeath:
   ChargeAttackDropSpp: 8
   DropLuc: 8640
   KnockOutDropSpp: 30
@@ -25492,7 +25576,7 @@ Man - eating death:
   luck: 118
   offMag: 226
   type_id: boss
-'Man - eating death : Avatar':
+ManEatingDeathAvatar:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -25513,28 +25597,7 @@ Man - eating death:
   luck: 118
   offMag: 226
   type_id: boss
-ManaStone Black:
-  ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 60
-  LAttackDropSpp: 1
-  actionEnable: 15
-  atk: 0
-  def: 257
-  defMag: 257
-  downDurable: 100.0
-  dropSpp: 0
-  exp: 0
-  guardDurable: 0.0
-  hp: 70
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
-  luck: 171
-  offMag: 0
-  type_id: boss
-ManaStone Earth:
+ManaStoneEarth:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25555,7 +25618,7 @@ ManaStone Earth:
   luck: 171
   offMag: 368
   type_id: boss
-ManaStone Fire:
+ManaStoneFire:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25576,7 +25639,7 @@ ManaStone Fire:
   luck: 171
   offMag: 368
   type_id: boss
-ManaStone Water:
+ManaStoneWater:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25597,7 +25660,7 @@ ManaStone Water:
   luck: 171
   offMag: 313
   type_id: boss
-ManaStone Wind:
+ManaStoneWind:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25618,27 +25681,27 @@ ManaStone Wind:
   luck: 171
   offMag: 368
   type_id: boss
-MiniBlackRabi:
+MimicQueen:
   ChargeAttackDropSpp: 3
-  DropLuc: 0
-  KnockOutDropSpp: 0
-  LAttackDropSpp: 1
+  DropLuc: 9800
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
   actionEnable: 15
-  atk: 669
-  def: 345
-  defMag: 345
-  downDurable: 100.0
+  atk: 455
+  def: 238
+  defMag: 198
+  downDurable: 2400.0
   dropSpp: 0
-  exp: 0
+  exp: 30000
   guardDurable: 0.0
-  hp: 30
+  hp: 64320
   itemDrop1: 0
   itemDrop2: 0
   itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\_BossStatusTable.json
-  luck: 188
-  offMag: 501
-  type_id: boss
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en40_03\_EnemyStatusTable_en40_03.json
+  luck: 127
+  offMag: 364
+  type_id: common
 Mispolm:
   ChargeAttackDropSpp: 8
   DropLuc: 0
@@ -25660,7 +25723,7 @@ Mispolm:
   luck: 100
   offMag: 100
   type_id: boss
-Mispolm Ivy:
+MispolmIvy:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25681,7 +25744,7 @@ Mispolm Ivy:
   luck: 0
   offMag: 186
   type_id: boss
-Mispolm_1:
+MispolmIvy_1:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25702,112 +25765,7 @@ Mispolm_1:
   luck: 80
   offMag: 199
   type_id: shinju
-Mispolm_10:
-  ChargeAttackDropSpp: 8
-  DropLuc: 3800
-  KnockOutDropSpp: 30
-  LAttackDropSpp: 2
-  actionEnable: 15
-  atk: 312
-  def: 167
-  defMag: 167
-  downDurable: 650.0
-  dropSpp: 0
-  exp: 20000
-  guardDurable: 0.0
-  hp: 47857
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
-  luck: 94
-  offMag: 250
-  type_id: shinju
-Mispolm_11:
-  ChargeAttackDropSpp: 8
-  DropLuc: 3800
-  KnockOutDropSpp: 30
-  LAttackDropSpp: 2
-  actionEnable: 15
-  atk: 355
-  def: 183
-  defMag: 183
-  downDurable: 650.0
-  dropSpp: 0
-  exp: 20000
-  guardDurable: 0.0
-  hp: 54060
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
-  luck: 99
-  offMag: 284
-  type_id: shinju
-Mispolm_12:
-  ChargeAttackDropSpp: 8
-  DropLuc: 3800
-  KnockOutDropSpp: 30
-  LAttackDropSpp: 2
-  actionEnable: 15
-  atk: 367
-  def: 190
-  defMag: 190
-  downDurable: 650.0
-  dropSpp: 0
-  exp: 20000
-  guardDurable: 0.0
-  hp: 56180
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
-  luck: 103
-  offMag: 294
-  type_id: shinju
-Mispolm_13:
-  ChargeAttackDropSpp: 8
-  DropLuc: 3800
-  KnockOutDropSpp: 30
-  LAttackDropSpp: 2
-  actionEnable: 15
-  atk: 380
-  def: 197
-  defMag: 197
-  downDurable: 650.0
-  dropSpp: 0
-  exp: 20000
-  guardDurable: 0.0
-  hp: 58300
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
-  luck: 106
-  offMag: 304
-  type_id: shinju
-Mispolm_14:
-  ChargeAttackDropSpp: 8
-  DropLuc: 3800
-  KnockOutDropSpp: 30
-  LAttackDropSpp: 2
-  actionEnable: 15
-  atk: 393
-  def: 204
-  defMag: 204
-  downDurable: 650.0
-  dropSpp: 0
-  exp: 20000
-  guardDurable: 0.0
-  hp: 60420
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
-  luck: 110
-  offMag: 314
-  type_id: shinju
-Mispolm_2:
+MispolmIvy_2:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25828,7 +25786,7 @@ Mispolm_2:
   luck: 88
   offMag: 240
   type_id: shinju
-Mispolm_3:
+MispolmIvy_3:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25849,7 +25807,7 @@ Mispolm_3:
   luck: 94
   offMag: 277
   type_id: shinju
-Mispolm_4:
+MispolmIvy_4:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25870,7 +25828,7 @@ Mispolm_4:
   luck: 99
   offMag: 315
   type_id: shinju
-Mispolm_5:
+MispolmIvy_5:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25891,7 +25849,7 @@ Mispolm_5:
   luck: 103
   offMag: 326
   type_id: shinju
-Mispolm_6:
+MispolmIvy_6:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25912,7 +25870,7 @@ Mispolm_6:
   luck: 106
   offMag: 338
   type_id: shinju
-Mispolm_7:
+MispolmIvy_7:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -25933,7 +25891,7 @@ Mispolm_7:
   luck: 110
   offMag: 349
   type_id: shinju
-Mispolm_8:
+Mispolm_1:
   ChargeAttackDropSpp: 8
   DropLuc: 3800
   KnockOutDropSpp: 30
@@ -25954,7 +25912,7 @@ Mispolm_8:
   luck: 80
   offMag: 179
   type_id: shinju
-Mispolm_9:
+Mispolm_2:
   ChargeAttackDropSpp: 8
   DropLuc: 3800
   KnockOutDropSpp: 30
@@ -25974,6 +25932,111 @@ Mispolm_9:
   jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
   luck: 88
   offMag: 216
+  type_id: shinju
+Mispolm_3:
+  ChargeAttackDropSpp: 8
+  DropLuc: 3800
+  KnockOutDropSpp: 30
+  LAttackDropSpp: 2
+  actionEnable: 15
+  atk: 312
+  def: 167
+  defMag: 167
+  downDurable: 650.0
+  dropSpp: 0
+  exp: 20000
+  guardDurable: 0.0
+  hp: 47857
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
+  luck: 94
+  offMag: 250
+  type_id: shinju
+Mispolm_4:
+  ChargeAttackDropSpp: 8
+  DropLuc: 3800
+  KnockOutDropSpp: 30
+  LAttackDropSpp: 2
+  actionEnable: 15
+  atk: 355
+  def: 183
+  defMag: 183
+  downDurable: 650.0
+  dropSpp: 0
+  exp: 20000
+  guardDurable: 0.0
+  hp: 54060
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
+  luck: 99
+  offMag: 284
+  type_id: shinju
+Mispolm_5:
+  ChargeAttackDropSpp: 8
+  DropLuc: 3800
+  KnockOutDropSpp: 30
+  LAttackDropSpp: 2
+  actionEnable: 15
+  atk: 367
+  def: 190
+  defMag: 190
+  downDurable: 650.0
+  dropSpp: 0
+  exp: 20000
+  guardDurable: 0.0
+  hp: 56180
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
+  luck: 103
+  offMag: 294
+  type_id: shinju
+Mispolm_6:
+  ChargeAttackDropSpp: 8
+  DropLuc: 3800
+  KnockOutDropSpp: 30
+  LAttackDropSpp: 2
+  actionEnable: 15
+  atk: 380
+  def: 197
+  defMag: 197
+  downDurable: 650.0
+  dropSpp: 0
+  exp: 20000
+  guardDurable: 0.0
+  hp: 58300
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
+  luck: 106
+  offMag: 304
+  type_id: shinju
+Mispolm_7:
+  ChargeAttackDropSpp: 8
+  DropLuc: 3800
+  KnockOutDropSpp: 30
+  LAttackDropSpp: 2
+  actionEnable: 15
+  atk: 393
+  def: 204
+  defMag: 204
+  downDurable: 650.0
+  dropSpp: 0
+  exp: 20000
+  guardDurable: 0.0
+  hp: 60420
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\Data\Csv\CharaData\ShinjuStatusTableList\_eb15_CustomStatusTable.json
+  luck: 110
+  offMag: 314
   type_id: shinju
 NECROMANCER:
   ChargeAttackDropSpp: 3
@@ -34291,6 +34354,27 @@ RASTERBUG_Lv64:
   luck: 153
   offMag: 441
   type_id: common
+Revenant:
+  ChargeAttackDropSpp: 3
+  DropLuc: 8000
+  KnockOutDropSpp: 10
+  LAttackDropSpp: 3
+  actionEnable: 15
+  atk: 364
+  def: 198
+  defMag: 238
+  downDurable: 1800.0
+  dropSpp: 0
+  exp: 28000
+  guardDurable: 0.0
+  hp: 78254
+  itemDrop1: 0
+  itemDrop2: 0
+  itemDrop3: 0
+  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_03.json
+  luck: 127
+  offMag: 364
+  type_id: common
 Roki:
   ChargeAttackDropSpp: 8
   DropLuc: 10000
@@ -34312,7 +34396,7 @@ Roki:
   luck: 127
   offMag: 243
   type_id: boss
-RouletteDeath_Actor01:
+RouletteDeath_ManEatingDeath:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -34333,7 +34417,7 @@ RouletteDeath_Actor01:
   luck: 118
   offMag: 226
   type_id: parts
-RouletteDeath_Actor02:
+RouletteDeath_ManEatingDeath_1:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -34354,7 +34438,7 @@ RouletteDeath_Actor02:
   luck: 118
   offMag: 226
   type_id: parts
-RouletteDeath_Actor03:
+RouletteDeath_ManEatingDeath_2:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -34375,7 +34459,7 @@ RouletteDeath_Actor03:
   luck: 118
   offMag: 226
   type_id: parts
-RouletteDeath_Actor04:
+RouletteDeath_ManEatingDeath_3:
   ChargeAttackDropSpp: 5
   DropLuc: 0
   KnockOutDropSpp: 0
@@ -39688,7 +39772,7 @@ Sablehor:
   luck: 113
   offMag: 323
   type_id: boss
-Sablehor BlueMan:
+SablehorBlueMan:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 20
@@ -39709,7 +39793,7 @@ Sablehor BlueMan:
   luck: 113
   offMag: 323
   type_id: boss
-Sablehor PurpleMan:
+SablehorPurpleMan:
   ChargeAttackDropSpp: 3
   DropLuc: 0
   KnockOutDropSpp: 20
@@ -41977,7 +42061,7 @@ ZOMBIE_Summon:
   luck: 128
   offMag: 364
   type_id: common
-Zan Bie:
+ZanBie:
   ChargeAttackDropSpp: 8
   DropLuc: 0
   KnockOutDropSpp: 60
@@ -41998,7 +42082,7 @@ Zan Bie:
   luck: 100
   offMag: 100
   type_id: boss
-Zan Bie_1:
+ZanBie_1:
   ChargeAttackDropSpp: 8
   DropLuc: 4200
   KnockOutDropSpp: 30
@@ -42019,7 +42103,7 @@ Zan Bie_1:
   luck: 80
   offMag: 149
   type_id: shinju
-Zan Bie_2:
+ZanBie_2:
   ChargeAttackDropSpp: 8
   DropLuc: 4200
   KnockOutDropSpp: 30
@@ -42040,7 +42124,7 @@ Zan Bie_2:
   luck: 88
   offMag: 180
   type_id: shinju
-Zan Bie_3:
+ZanBie_3:
   ChargeAttackDropSpp: 8
   DropLuc: 4200
   KnockOutDropSpp: 30
@@ -42061,7 +42145,7 @@ Zan Bie_3:
   luck: 94
   offMag: 208
   type_id: shinju
-Zan Bie_4:
+ZanBie_4:
   ChargeAttackDropSpp: 8
   DropLuc: 4200
   KnockOutDropSpp: 30
@@ -42082,7 +42166,7 @@ Zan Bie_4:
   luck: 99
   offMag: 236
   type_id: shinju
-Zan Bie_5:
+ZanBie_5:
   ChargeAttackDropSpp: 8
   DropLuc: 4200
   KnockOutDropSpp: 30
@@ -42103,7 +42187,7 @@ Zan Bie_5:
   luck: 103
   offMag: 245
   type_id: shinju
-Zan Bie_6:
+ZanBie_6:
   ChargeAttackDropSpp: 8
   DropLuc: 4200
   KnockOutDropSpp: 30
@@ -42124,7 +42208,7 @@ Zan Bie_6:
   luck: 106
   offMag: 254
   type_id: shinju
-Zan Bie_7:
+ZanBie_7:
   ChargeAttackDropSpp: 8
   DropLuc: 4200
   KnockOutDropSpp: 30
@@ -42283,27 +42367,6 @@ two:
   luck: 120
   offMag: 228
   type_id: common
-エンプレスビー_3:
-  ChargeAttackDropSpp: 3
-  DropLuc: 8600
-  KnockOutDropSpp: 10
-  LAttackDropSpp: 3
-  actionEnable: 15
-  atk: 364
-  def: 238
-  defMag: 238
-  downDurable: 1200.0
-  dropSpp: 0
-  exp: 33000
-  guardDurable: 0.0
-  hp: 53600
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en11_04\_EnemyStatusTable_en11_04.json
-  luck: 134
-  offMag: 364
-  type_id: common
 グール:
   ChargeAttackDropSpp: 3
   DropLuc: 0
@@ -42388,27 +42451,6 @@ two:
   luck: 89
   offMag: 220
   type_id: common
-ブラックアンジェラ:
-  ChargeAttackDropSpp: 3
-  DropLuc: 9400
-  KnockOutDropSpp: 10
-  LAttackDropSpp: 3
-  actionEnable: 15
-  atk: 243
-  def: 238
-  defMag: 286
-  downDurable: 1200.0
-  dropSpp: 10
-  exp: 28000
-  guardDurable: 0.0
-  hp: 22726
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en22_04\_EnemyStatusTable_en22_04.json
-  luck: 134
-  offMag: 455
-  type_id: common
 ブルーザー:
   ChargeAttackDropSpp: 3
   DropLuc: 0
@@ -42429,46 +42471,4 @@ two:
   jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en99_01\_EnemyStatusTable_en99_02.json
   luck: 100
   offMag: 190
-  type_id: common
-ミミッククィーン:
-  ChargeAttackDropSpp: 3
-  DropLuc: 9800
-  KnockOutDropSpp: 10
-  LAttackDropSpp: 3
-  actionEnable: 15
-  atk: 455
-  def: 238
-  defMag: 198
-  downDurable: 2400.0
-  dropSpp: 0
-  exp: 30000
-  guardDurable: 0.0
-  hp: 64320
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en40_03\_EnemyStatusTable_en40_03.json
-  luck: 127
-  offMag: 364
-  type_id: common
-レグナント:
-  ChargeAttackDropSpp: 3
-  DropLuc: 8000
-  KnockOutDropSpp: 10
-  LAttackDropSpp: 3
-  actionEnable: 15
-  atk: 364
-  def: 198
-  defMag: 238
-  downDurable: 1800.0
-  dropSpp: 0
-  exp: 28000
-  guardDurable: 0.0
-  hp: 78254
-  itemDrop1: 0
-  itemDrop2: 0
-  itemDrop3: 0
-  jsonPath: JSON Game Files\Trials of Mana\Content\Game00\BP\Enemy\Zako\en08_03\_EnemyStatusTable_en08_03.json
-  luck: 127
-  offMag: 364
   type_id: common
