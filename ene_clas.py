@@ -192,7 +192,7 @@ def createEnemyInstances():
 
 enemiesByFile = defaultdict(list)
 
-currentVersionTitle = 'Custom_TofMania - 0.5.4_1_P'
+currentVersionTitle = 'Custom_TofMania - 0.5.5_1_P'
 
 print('Editing in process...')
 
